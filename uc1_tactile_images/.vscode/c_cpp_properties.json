@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/panda_motion_generators/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/panda_motion_generator_msgs/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/multi_mode_controller_impl/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/multi_mode_controller/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/franka_example_controllers/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/multi_mode_control_msgs/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/mujoco_ros2_sensors/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/mujoco_ros2_dummy_plugin/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/mujoco_ros2_control_system/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/franka_robot_state_broadcaster/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/franka_semantic_components/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/franka_hardware/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/mujoco_ros2_control/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/mujoco_ros/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/garmi_controllers/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/franka_msgs/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/uc1_robot_controllers/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/uc1_robot_perception/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/test_package_interfaces/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/control_goal_interfaces/include/**",
+        "/home/francesco/Documents/ROS_WORKSPACES/sestosenso_uc1_urdf_ws/install/rsp_uc1/include/**",
+        "/home/francesco/Documents/SESTOSENSO/sestosenso-data-acquisition/ros_ws/install/ros_acquisition_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/src/actions_cpp/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/src/environment_pointcloud_processing/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/src/pointcloud_interactive_markers/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/src/uc1_orchestrator/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/src/uc1_robot_controllers/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/src/uc1_robot_perception/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/src/uc1_tactile_images/include/**",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/src/ur_admittance_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

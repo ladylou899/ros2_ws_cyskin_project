@@ -1,0 +1,38 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/panda_motion_generator_msgs/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/multi_mode_control_msgs/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/franka_simple_publishers/lib/python3.10/site-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/franka_gripper/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/uc1_robot_perception/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/test_package_interfaces/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/kuka_rsi_ros_interface/lib/python3.10/site-packages",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/control_goal_interfaces/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/sestosenso_uc1_urdf_ws/install/jsp_gui_uc1/lib/python3.10/site-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/sestosenso_uc1_urdf_ws/install/jsp_uc1/lib/python3.10/site-packages",
+        "/home/francesco/Documents/SESTOSENSO/sestosenso-data-acquisition/ros_ws/install/ros_acquisition_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "",
+        "/home/francesco/Documents/Tools/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04/programming/zmqRemoteApi/clients/python"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/panda_motion_generator_msgs/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/multi_mode_control_msgs/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/franka_simple_publishers/lib/python3.10/site-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/franka_gripper/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/franka_ws/install/franka_msgs/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/uc1_robot_perception/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/test_package_interfaces/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/kuka_rsi_ros_interface/lib/python3.10/site-packages",
+        "/home/francesco/Documents/SESTOSENSO_WORKSPACES/sestosenso_uc1_ws/install/control_goal_interfaces/local/lib/python3.10/dist-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/sestosenso_uc1_urdf_ws/install/jsp_gui_uc1/lib/python3.10/site-packages",
+        "/home/francesco/Documents/ROS_WORKSPACES/sestosenso_uc1_urdf_ws/install/jsp_uc1/lib/python3.10/site-packages",
+        "/home/francesco/Documents/SESTOSENSO/sestosenso-data-acquisition/ros_ws/install/ros_acquisition_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "",
+        "/home/francesco/Documents/Tools/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04/programming/zmqRemoteApi/clients/python"
+    ]
+}
