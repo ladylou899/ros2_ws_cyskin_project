@@ -1,0 +1,4 @@
+source;share/cyskin_acquisition/local_setup.bash
+source;share/cyskin_acquisition/local_setup.dsv
+source;share/cyskin_acquisition/local_setup.sh
+source;share/cyskin_acquisition/local_setup.zsh

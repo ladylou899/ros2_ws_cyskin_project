@@ -1,0 +1,17 @@
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_acquisition
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_subscriber
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/ament_index/resource_index/package_run_dependencies/cyskin_acquisition
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/ament_index/resource_index/parent_prefix_path/cyskin_acquisition
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/environment/ament_prefix_path.sh
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/environment/ament_prefix_path.dsv
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/environment/path.sh
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/environment/path.dsv
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.bash
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.sh
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.zsh
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.dsv
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/package.dsv
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/ament_index/resource_index/packages/cyskin_acquisition
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/cmake/cyskin_acquisitionConfig.cmake
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/cmake/cyskin_acquisitionConfig-version.cmake
+/home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/package.xml

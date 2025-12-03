@@ -1,0 +1,14 @@
+{
+  "package_name": "uc1_tactile_images",
+  "output_dir": "/home/lidia/ros2_ws/build/uc1_tactile_images/rosidl_generator_type_description/uc1_tactile_images",
+  "idl_tuples": [
+    "/home/lidia/ros2_ws/build/uc1_tactile_images/rosidl_adapter/uc1_tactile_images:msg/ImageArrayLink.idl"
+  ],
+  "include_paths": [
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "uc1_tactile_images__py",
+		"source" : "/home/lidia/ros2_ws/build/uc1_tactile_images/uc1_tactile_images__py"
+	}
+}

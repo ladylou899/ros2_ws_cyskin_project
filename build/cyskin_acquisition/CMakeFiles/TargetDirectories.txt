@@ -1,0 +1,11 @@
+/home/lidia/ros2_ws/build/cyskin_acquisition/CMakeFiles/uninstall.dir
+/home/lidia/ros2_ws/build/cyskin_acquisition/CMakeFiles/cyskin_acquisition_uninstall.dir
+/home/lidia/ros2_ws/build/cyskin_acquisition/CMakeFiles/cyskin_acquisition.dir
+/home/lidia/ros2_ws/build/cyskin_acquisition/CMakeFiles/cyskin_subscriber.dir
+/home/lidia/ros2_ws/build/cyskin_acquisition/CMakeFiles/test.dir
+/home/lidia/ros2_ws/build/cyskin_acquisition/CMakeFiles/edit_cache.dir
+/home/lidia/ros2_ws/build/cyskin_acquisition/CMakeFiles/rebuild_cache.dir
+/home/lidia/ros2_ws/build/cyskin_acquisition/CMakeFiles/list_install_components.dir
+/home/lidia/ros2_ws/build/cyskin_acquisition/CMakeFiles/install.dir
+/home/lidia/ros2_ws/build/cyskin_acquisition/CMakeFiles/install/local.dir
+/home/lidia/ros2_ws/build/cyskin_acquisition/CMakeFiles/install/strip.dir

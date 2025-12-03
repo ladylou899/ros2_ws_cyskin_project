@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.000220] (cyskin_acquisition) JobQueued: {'identifier': 'cyskin_acquisition', 'dependencies': OrderedDict()}
+[0.000742] (robotskinlib) JobQueued: {'identifier': 'robotskinlib', 'dependencies': OrderedDict()}
+[0.001515] (uc1_tactile_images) JobQueued: {'identifier': 'uc1_tactile_images', 'dependencies': OrderedDict()}
+[0.001571] (cyskin_acquisition) JobStarted: {'identifier': 'cyskin_acquisition'}
+[0.012620] (robotskinlib) JobStarted: {'identifier': 'robotskinlib'}
+[0.020896] (uc1_tactile_images) JobStarted: {'identifier': 'uc1_tactile_images'}
+[0.029560] (cyskin_acquisition) JobProgress: {'identifier': 'cyskin_acquisition', 'progress': 'cmake'}
+[0.031787] (cyskin_acquisition) JobProgress: {'identifier': 'cyskin_acquisition', 'progress': 'build'}
+[0.033898] (cyskin_acquisition) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lidia/ros2_ws/src/build/cyskin_acquisition', '--', '-j8', '-l8'], 'cwd': '/home/lidia/ros2_ws/src/build/cyskin_acquisition', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lidia', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lidia', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2161', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=433091d739e563a467c0f9d16925c4bf', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lidia/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/lidia/ros2_ws/install/cyskin_acquisition/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lidia-IdeaPad-3-15IML05:@/tmp/.ICE-unix/2161,unix/lidia-IdeaPad-3-15IML05:/tmp/.ICE-unix/2161', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0d56756_916b_4b94_890b_94ca003ec1c3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GV4TG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lidia/ros2_ws/src/build/cyskin_acquisition', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=433091d739e563a467c0f9d16925c4bf', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images:/opt/ros/jazzy:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.038714] (robotskinlib) JobProgress: {'identifier': 'robotskinlib', 'progress': 'cmake'}
+[0.039907] (robotskinlib) Command: {'cmd': ['/usr/bin/cmake', '/home/lidia/ros2_ws/src/robotskinlib', '-DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/src/install/robotskinlib'], 'cwd': '/home/lidia/ros2_ws/src/build/robotskinlib', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lidia', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lidia', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2161', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=433091d739e563a467c0f9d16925c4bf', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lidia/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/lidia/ros2_ws/install/cyskin_acquisition/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lidia-IdeaPad-3-15IML05:@/tmp/.ICE-unix/2161,unix/lidia-IdeaPad-3-15IML05:/tmp/.ICE-unix/2161', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0d56756_916b_4b94_890b_94ca003ec1c3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GV4TG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lidia/ros2_ws/src/build/robotskinlib', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=433091d739e563a467c0f9d16925c4bf', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.045875] (uc1_tactile_images) JobProgress: {'identifier': 'uc1_tactile_images', 'progress': 'cmake'}
+[0.047795] (uc1_tactile_images) Command: {'cmd': ['/usr/bin/cmake', '/home/lidia/ros2_ws/src/uc1_tactile_images', '-DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/src/install/uc1_tactile_images'], 'cwd': '/home/lidia/ros2_ws/src/build/uc1_tactile_images', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lidia', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lidia', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2161', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=433091d739e563a467c0f9d16925c4bf', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lidia/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/lidia/ros2_ws/install/cyskin_acquisition/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lidia-IdeaPad-3-15IML05:@/tmp/.ICE-unix/2161,unix/lidia-IdeaPad-3-15IML05:/tmp/.ICE-unix/2161', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0d56756_916b_4b94_890b_94ca003ec1c3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GV4TG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lidia/ros2_ws/src/build/uc1_tactile_images', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=433091d739e563a467c0f9d16925c4bf', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images:/opt/ros/jazzy:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.056617] (robotskinlib) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/lidia/ros2_ws/src/robotskinlib/CMakeCache.txt is different than the directory /home/lidia/PFE/robotskinlib where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.059539] (robotskinlib) CommandEnded: {'returncode': 1}
+[0.060455] (robotskinlib) JobEnded: {'identifier': 'robotskinlib', 'rc': 1}
+[0.099133] (cyskin_acquisition) StdoutLine: {'line': b'-- OPTIONS: Hardware support ENABLED\n'}
+[0.099501] (-) TimerEvent: {}
+[0.099690] (cyskin_acquisition) StdoutLine: {'line': b'-- OPTIONS: ARM support DISABLED\n'}
+[0.099905] (cyskin_acquisition) StdoutLine: {'line': b'-- OPTIONS: ROS support DISABLED\n'}
+[0.100110] (cyskin_acquisition) StdoutLine: {'line': b'-- OPTIONS: ROS2 support ENABLED\n'}
+[0.100428] (cyskin_acquisition) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199618] (-) TimerEvent: {}
+[0.237057] (uc1_tactile_images) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.299746] (-) TimerEvent: {}
+[0.400129] (-) TimerEvent: {}
+[0.500555] (-) TimerEvent: {}
+[0.533266] (uc1_tactile_images) StdoutLine: {'line': b'-- The CXX compiler identification is unknown\n'}
+[0.568518] (uc1_tactile_images) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.603025] (-) TimerEvent: {}
+[0.698411] (cyskin_acquisition) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.703131] (-) TimerEvent: {}
+[0.777076] (uc1_tactile_images) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.796098] (cyskin_acquisition) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.802282] (uc1_tactile_images) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.802986] (uc1_tactile_images) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.803245] (-) TimerEvent: {}
+[0.804105] (uc1_tactile_images) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.806075] (uc1_tactile_images) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:3 (project):\n'}
+[0.806607] (uc1_tactile_images) StderrLine: {'line': b'  The CMAKE_CXX_COMPILER:\n'}
+[0.806928] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[0.807267] (uc1_tactile_images) StderrLine: {'line': b'    /usr/bin/g++-11\n'}
+[0.807577] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[0.807864] (uc1_tactile_images) StderrLine: {'line': b'  is not a full path to an existing compiler tool.\n'}
+[0.808200] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[0.808514] (uc1_tactile_images) StderrLine: {'line': b'  Tell CMake where to find the compiler by setting either the environment\n'}
+[0.808755] (uc1_tactile_images) StderrLine: {'line': b'  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path\n'}
+[0.809075] (uc1_tactile_images) StderrLine: {'line': b'  to the compiler, or to the compiler name if it is in the PATH.\n'}
+[0.809357] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[0.809625] (uc1_tactile_images) StderrLine: {'line': b'\x1b[0m\n'}
+[0.810548] (uc1_tactile_images) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.833305] (uc1_tactile_images) JobEnded: {'identifier': 'uc1_tactile_images', 'rc': 'SIGINT'}
+[0.835883] (cyskin_acquisition) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.870058] (cyskin_acquisition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.903408] (-) TimerEvent: {}
+[0.909853] (cyskin_acquisition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.003515] (-) TimerEvent: {}
+[1.051830] (cyskin_acquisition) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.054830] (cyskin_acquisition) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.103626] (-) TimerEvent: {}
+[1.161764] (cyskin_acquisition) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.203773] (-) TimerEvent: {}
+[1.301219] (cyskin_acquisition) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.303857] (-) TimerEvent: {}
+[1.404094] (-) TimerEvent: {}
+[1.478450] (cyskin_acquisition) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.503432] (cyskin_acquisition) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.504172] (-) TimerEvent: {}
+[1.512222] (cyskin_acquisition) StdoutLine: {'line': b'-- Build files have been written to: /home/lidia/ros2_ws/src/build/cyskin_acquisition\n'}
+[1.560288] (cyskin_acquisition) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_subscriber.dir/src/cyskin_subscriber.cpp.o\x1b[0m\n'}
+[1.560627] (cyskin_acquisition) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_subscriber.dir/src/subscriber_main.cpp.o\x1b[0m\n'}
+[1.594941] (cyskin_acquisition) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/updater.cpp.o\x1b[0m\n'}
+[1.596460] (cyskin_acquisition) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/file_publisher.cpp.o\x1b[0m\n'}
+[1.598250] (cyskin_acquisition) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/ros_publisher.cpp.o\x1b[0m\n'}
+[1.604351] (-) TimerEvent: {}
+[1.704712] (-) TimerEvent: {}
+[1.805026] (-) TimerEvent: {}
+[1.905409] (-) TimerEvent: {}
+[2.005705] (-) TimerEvent: {}
+[2.106072] (-) TimerEvent: {}
+[2.206414] (-) TimerEvent: {}
+[2.306817] (-) TimerEvent: {}
+[2.409112] (-) TimerEvent: {}
+[2.509540] (-) TimerEvent: {}
+[2.609974] (-) TimerEvent: {}
+[2.710412] (-) TimerEvent: {}
+[2.810859] (-) TimerEvent: {}
+[2.911309] (-) TimerEvent: {}
+[3.013780] (-) TimerEvent: {}
+[3.114256] (-) TimerEvent: {}
+[3.215015] (-) TimerEvent: {}
+[3.315554] (-) TimerEvent: {}
+[3.416246] (-) TimerEvent: {}
+[3.516690] (-) TimerEvent: {}
+[3.617110] (-) TimerEvent: {}
+[3.717519] (-) TimerEvent: {}
+[3.817917] (-) TimerEvent: {}
+[3.918335] (-) TimerEvent: {}
+[4.018728] (-) TimerEvent: {}
+[4.119166] (-) TimerEvent: {}
+[4.219533] (-) TimerEvent: {}
+[4.319921] (-) TimerEvent: {}
+[4.420325] (-) TimerEvent: {}
+[4.520712] (-) TimerEvent: {}
+[4.621143] (-) TimerEvent: {}
+[4.721536] (-) TimerEvent: {}
+[4.821930] (-) TimerEvent: {}
+[4.922350] (-) TimerEvent: {}
+[5.022760] (-) TimerEvent: {}
+[5.123176] (-) TimerEvent: {}
+[5.223595] (-) TimerEvent: {}
+[5.324038] (-) TimerEvent: {}
+[5.424458] (-) TimerEvent: {}
+[5.524889] (-) TimerEvent: {}
+[5.625328] (-) TimerEvent: {}
+[5.725775] (-) TimerEvent: {}
+[5.826229] (-) TimerEvent: {}
+[5.926621] (-) TimerEvent: {}
+[6.027021] (-) TimerEvent: {}
+[6.127423] (-) TimerEvent: {}
+[6.227809] (-) TimerEvent: {}
+[6.328230] (-) TimerEvent: {}
+[6.428616] (-) TimerEvent: {}
+[6.529019] (-) TimerEvent: {}
+[6.629391] (-) TimerEvent: {}
+[6.729769] (-) TimerEvent: {}
+[6.830161] (-) TimerEvent: {}
+[6.930577] (-) TimerEvent: {}
+[7.030972] (-) TimerEvent: {}
+[7.131336] (-) TimerEvent: {}
+[7.231712] (-) TimerEvent: {}
+[7.332109] (-) TimerEvent: {}
+[7.432558] (-) TimerEvent: {}
+[7.532959] (-) TimerEvent: {}
+[7.633342] (-) TimerEvent: {}
+[7.733724] (-) TimerEvent: {}
+[7.834133] (-) TimerEvent: {}
+[7.934497] (-) TimerEvent: {}
+[8.034925] (-) TimerEvent: {}
+[8.135325] (-) TimerEvent: {}
+[8.235655] (-) TimerEvent: {}
+[8.335983] (-) TimerEvent: {}
+[8.436320] (-) TimerEvent: {}
+[8.536691] (-) TimerEvent: {}
+[8.637025] (-) TimerEvent: {}
+[8.737377] (-) TimerEvent: {}
+[8.837755] (-) TimerEvent: {}
+[8.938136] (-) TimerEvent: {}
+[9.038474] (-) TimerEvent: {}
+[9.138779] (-) TimerEvent: {}
+[9.239107] (-) TimerEvent: {}
+[9.339426] (-) TimerEvent: {}
+[9.439711] (-) TimerEvent: {}
+[9.540012] (-) TimerEvent: {}
+[9.640312] (-) TimerEvent: {}
+[9.740604] (-) TimerEvent: {}
+[9.840955] (-) TimerEvent: {}
+[9.933222] (cyskin_acquisition) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX executable cyskin_acquisition\x1b[0m\n'}
+[9.941035] (-) TimerEvent: {}
+[10.041439] (-) TimerEvent: {}
+[10.141886] (-) TimerEvent: {}
+[10.242252] (-) TimerEvent: {}
+[10.334442] (cyskin_acquisition) StdoutLine: {'line': b'[ 92%] Built target cyskin_acquisition\n'}
+[10.342358] (-) TimerEvent: {}
+[10.442666] (-) TimerEvent: {}
+[10.542961] (-) TimerEvent: {}
+[10.643240] (-) TimerEvent: {}
+[10.743514] (-) TimerEvent: {}
+[10.843795] (-) TimerEvent: {}
+[10.944164] (-) TimerEvent: {}
+[11.044426] (-) TimerEvent: {}
+[11.144685] (-) TimerEvent: {}
+[11.244957] (-) TimerEvent: {}
+[11.345262] (-) TimerEvent: {}
+[11.445564] (-) TimerEvent: {}
+[11.545846] (-) TimerEvent: {}
+[11.646127] (-) TimerEvent: {}
+[11.746406] (-) TimerEvent: {}
+[11.846683] (-) TimerEvent: {}
+[11.946983] (-) TimerEvent: {}
+[12.047260] (-) TimerEvent: {}
+[12.147541] (-) TimerEvent: {}
+[12.247830] (-) TimerEvent: {}
+[12.348118] (-) TimerEvent: {}
+[12.448395] (-) TimerEvent: {}
+[12.548678] (-) TimerEvent: {}
+[12.648961] (-) TimerEvent: {}
+[12.749247] (-) TimerEvent: {}
+[12.849548] (-) TimerEvent: {}
+[12.949830] (-) TimerEvent: {}
+[13.050124] (-) TimerEvent: {}
+[13.150409] (-) TimerEvent: {}
+[13.250683] (-) TimerEvent: {}
+[13.350975] (-) TimerEvent: {}
+[13.451254] (-) TimerEvent: {}
+[13.551565] (-) TimerEvent: {}
+[13.651852] (-) TimerEvent: {}
+[13.752126] (-) TimerEvent: {}
+[13.852389] (-) TimerEvent: {}
+[13.952688] (-) TimerEvent: {}
+[14.053010] (-) TimerEvent: {}
+[14.153299] (-) TimerEvent: {}
+[14.197240] (cyskin_acquisition) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cyskin_subscriber\x1b[0m\n'}
+[14.253435] (-) TimerEvent: {}
+[14.353864] (-) TimerEvent: {}
+[14.454170] (-) TimerEvent: {}
+[14.554523] (-) TimerEvent: {}
+[14.632194] (cyskin_acquisition) StdoutLine: {'line': b'[100%] Built target cyskin_subscriber\n'}
+[14.647199] (cyskin_acquisition) JobEnded: {'identifier': 'cyskin_acquisition', 'rc': 'SIGINT'}
+[14.654624] (-) TimerEvent: {}
+[14.657977] (-) EventReactorShutdown: {}

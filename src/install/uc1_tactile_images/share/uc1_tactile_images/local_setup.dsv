@@ -1,0 +1,4 @@
+source;share/uc1_tactile_images/environment/ament_prefix_path.sh
+source;share/uc1_tactile_images/environment/library_path.sh
+source;share/uc1_tactile_images/environment/path.sh
+source;share/uc1_tactile_images/environment/pythonpath.sh

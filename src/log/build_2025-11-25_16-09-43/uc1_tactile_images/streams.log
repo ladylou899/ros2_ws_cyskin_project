@@ -1,0 +1,16 @@
+[0.014s] Invoking command in '/home/lidia/ros2_ws/src/build/uc1_tactile_images': CMAKE_PREFIX_PATH=/home/lidia/ros2_ws/install/uc1_tactile_images:/opt/ros/jazzy:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lidia/ros2_ws/src/uc1_tactile_images -DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/src/install/uc1_tactile_images
+[0.187s] -- The CXX compiler identification is unknown
+[0.193s] [31mCMake Error at CMakeLists.txt:3 (project):
+[0.193s]   The CMAKE_CXX_COMPILER:
+[0.193s] 
+[0.193s]     /usr/bin/g++-11
+[0.194s] 
+[0.194s]   is not a full path to an existing compiler tool.
+[0.194s] 
+[0.194s]   Tell CMake where to find the compiler by setting either the environment
+[0.194s]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[0.194s]   to the compiler, or to the compiler name if it is in the PATH.
+[0.194s] 
+[0.195s] [0m
+[0.195s] -- Configuring incomplete, errors occurred!
+[0.205s] Invoked command in '/home/lidia/ros2_ws/src/build/uc1_tactile_images' returned '1': CMAKE_PREFIX_PATH=/home/lidia/ros2_ws/install/uc1_tactile_images:/opt/ros/jazzy:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lidia/ros2_ws/src/uc1_tactile_images -DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/src/install/uc1_tactile_images

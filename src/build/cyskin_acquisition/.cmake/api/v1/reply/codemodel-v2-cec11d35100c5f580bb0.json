@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ce7f8eaa44a0b3cd28e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cyskin_acquisition",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cyskin_acquisition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cyskin_acquisition-f88c46d4513c3722cb40.json",
+					"name" : "cyskin_acquisition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cyskin_acquisition_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cyskin_acquisition_uninstall-8425d152c72ba2d29d2f.json",
+					"name" : "cyskin_acquisition_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cyskin_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cyskin_subscriber-04d0ebb9c296bafbd8da.json",
+					"name" : "cyskin_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0d8d39450bd5562623a6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lidia/ros2_ws/src/build/cyskin_acquisition",
+		"source" : "/home/lidia/ros2_ws/src/cyskin_acquisition"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

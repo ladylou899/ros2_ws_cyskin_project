@@ -1,0 +1,6 @@
+{
+  "package_name": "uc1_tactile_images",
+  "non_idl_tuples": [
+    "/home/lidia/ros2_ws/src/uc1_tactile_images:msg/ImageArrayLink.msg"
+  ]
+}

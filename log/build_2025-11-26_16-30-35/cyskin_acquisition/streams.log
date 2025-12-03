@@ -1,0 +1,24 @@
+[0.028s] Invoking command in '/home/lidia/ros2_ws/build/cyskin_acquisition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lidia/ros2_ws/build/cyskin_acquisition -- -j8 -l8
+[0.141s] [ 23%] Built target cyskin_subscriber
+[0.157s] [100%] Built target cyskin_acquisition
+[0.179s] Invoked command in '/home/lidia/ros2_ws/build/cyskin_acquisition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lidia/ros2_ws/build/cyskin_acquisition -- -j8 -l8
+[0.204s] Invoking command in '/home/lidia/ros2_ws/build/cyskin_acquisition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lidia/ros2_ws/build/cyskin_acquisition
+[0.234s] -- Install configuration: ""
+[0.234s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_acquisition
+[0.235s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_subscriber
+[0.241s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/ament_index/resource_index/package_run_dependencies/cyskin_acquisition
+[0.241s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/ament_index/resource_index/parent_prefix_path/cyskin_acquisition
+[0.242s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/ament_prefix_path.sh
+[0.242s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/ament_prefix_path.dsv
+[0.242s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/path.sh
+[0.243s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/path.dsv
+[0.243s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.bash
+[0.243s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.sh
+[0.244s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.zsh
+[0.244s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.dsv
+[0.244s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.dsv
+[0.244s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/ament_index/resource_index/packages/cyskin_acquisition
+[0.249s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/cmake/cyskin_acquisitionConfig.cmake
+[0.249s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/cmake/cyskin_acquisitionConfig-version.cmake
+[0.250s] -- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.xml
+[0.250s] Invoked command in '/home/lidia/ros2_ws/build/cyskin_acquisition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lidia/ros2_ws/build/cyskin_acquisition

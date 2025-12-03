@@ -1,0 +1,73 @@
+[0.024s] Invoking command in '/home/lidia/ros2_ws/build/cyskin_acquisition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lidia/ros2_ws/src/cyskin_acquisition -DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/install/cyskin_acquisition
+[0.128s] -- The C compiler identification is GNU 13.3.0
+[0.244s] -- The CXX compiler identification is GNU 13.3.0
+[0.273s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.454s] -- Detecting C compile features
+[0.455s] -- Detecting C compile features - done
+[0.472s] -- Detecting CXX compiler ABI info
+[0.659s] -- Detecting CXX compiler ABI info - done
+[0.684s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.684s] -- Detecting CXX compile features
+[0.686s] -- Detecting CXX compile features - done
+[0.687s] -- OPTIONS: Hardware support ENABLED
+[0.687s] -- OPTIONS: ARM support DISABLED
+[0.687s] -- OPTIONS: ROS support DISABLED
+[0.688s] -- OPTIONS: ROS2 support ENABLED
+[0.692s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.995s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.238s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.329s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.361s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.638s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.644s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.808s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.852s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.903s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.093s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.332s] -- Configuring done (2.3s)
+[2.363s] -- Generating done (0.0s)
+[2.374s] -- Build files have been written to: /home/lidia/ros2_ws/build/cyskin_acquisition
+[2.391s] Invoked command in '/home/lidia/ros2_ws/build/cyskin_acquisition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lidia/ros2_ws/src/cyskin_acquisition -DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/install/cyskin_acquisition
+[2.394s] Invoking command in '/home/lidia/ros2_ws/build/cyskin_acquisition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lidia/ros2_ws/build/cyskin_acquisition -- -j8 -l8
+[2.488s] [  7%] [32mBuilding CXX object CMakeFiles/cyskin_subscriber.dir/src/subscriber_main.cpp.o[0m
+[2.489s] [ 15%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/main.cpp.o[0m
+[2.491s] [ 23%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/bash_publisher.cpp.o[0m
+[2.492s] [ 30%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/calibrator.cpp.o[0m
+[2.492s] [ 38%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/file_publisher.cpp.o[0m
+[2.497s] [ 46%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/ros_publisher.cpp.o[0m
+[2.498s] [ 53%] [32mBuilding CXX object CMakeFiles/cyskin_subscriber.dir/src/cyskin_subscriber.cpp.o[0m
+[2.502s] [ 61%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/shared_memory_publisher.cpp.o[0m
+[4.577s] [ 69%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/updater.cpp.o[0m
+[5.053s] [ 76%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/updater_fake.cpp.o[0m
+[5.643s] [ 84%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/updater_interface.cpp.o[0m
+[14.463s] [ 92%] [32m[1mLinking CXX executable cyskin_acquisition[0m
+[14.864s] [ 92%] Built target cyskin_acquisition
+[21.753s] [100%] [32m[1mLinking CXX executable cyskin_subscriber[0m
+[22.270s] [100%] Built target cyskin_subscriber
+[22.292s] Invoked command in '/home/lidia/ros2_ws/build/cyskin_acquisition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lidia/ros2_ws/build/cyskin_acquisition -- -j8 -l8
+[22.310s] Invoking command in '/home/lidia/ros2_ws/build/cyskin_acquisition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lidia/ros2_ws/build/cyskin_acquisition
+[22.323s] -- Install configuration: ""
+[22.324s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_acquisition
+[22.327s] -- Set non-toolchain portion of runtime path of "/home/lidia/ros2_ws/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_acquisition" to ""
+[22.327s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_subscriber
+[22.333s] -- Set non-toolchain portion of runtime path of "/home/lidia/ros2_ws/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_subscriber" to ""
+[22.334s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/ament_index/resource_index/package_run_dependencies/cyskin_acquisition
+[22.334s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/ament_index/resource_index/parent_prefix_path/cyskin_acquisition
+[22.334s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/ament_prefix_path.sh
+[22.335s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/ament_prefix_path.dsv
+[22.335s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/path.sh
+[22.335s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/path.dsv
+[22.336s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.bash
+[22.336s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.sh
+[22.336s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.zsh
+[22.337s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.dsv
+[22.337s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.dsv
+[22.337s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/ament_index/resource_index/packages/cyskin_acquisition
+[22.337s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/cmake/cyskin_acquisitionConfig.cmake
+[22.338s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/cmake/cyskin_acquisitionConfig-version.cmake
+[22.338s] -- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.xml
+[22.341s] Invoked command in '/home/lidia/ros2_ws/build/cyskin_acquisition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lidia/ros2_ws/build/cyskin_acquisition

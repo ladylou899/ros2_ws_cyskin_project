@@ -1,0 +1,415 @@
+[0.000000] (-) TimerEvent: {}
+[0.000148] (-) JobUnselected: {'identifier': 'cyskin_acquisition'}
+[0.000500] (-) JobUnselected: {'identifier': 'robotskinlib'}
+[0.000578] (uc1_tactile_images) JobQueued: {'identifier': 'uc1_tactile_images', 'dependencies': OrderedDict()}
+[0.000700] (uc1_tactile_images) JobStarted: {'identifier': 'uc1_tactile_images'}
+[0.010471] (uc1_tactile_images) JobProgress: {'identifier': 'uc1_tactile_images', 'progress': 'cmake'}
+[0.011368] (uc1_tactile_images) Command: {'cmd': ['/usr/bin/cmake', '/home/lidia/ros2_ws/src/uc1_tactile_images', '-DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/src/install/uc1_tactile_images'], 'cwd': '/home/lidia/ros2_ws/src/build/uc1_tactile_images', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lidia', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lidia', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2161', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=433091d739e563a467c0f9d16925c4bf', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lidia/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/lidia/ros2_ws/install/cyskin_acquisition/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lidia-IdeaPad-3-15IML05:@/tmp/.ICE-unix/2161,unix/lidia-IdeaPad-3-15IML05:/tmp/.ICE-unix/2161', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0d56756_916b_4b94_890b_94ca003ec1c3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GV4TG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lidia/ros2_ws/src/build/uc1_tactile_images', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=433091d739e563a467c0f9d16925c4bf', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images:/opt/ros/jazzy:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099196] (uc1_tactile_images) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.099482] (-) TimerEvent: {}
+[0.120902] (uc1_tactile_images) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199610] (-) TimerEvent: {}
+[0.264439] (uc1_tactile_images) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.298959] (uc1_tactile_images) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.300112] (-) TimerEvent: {}
+[0.300501] (uc1_tactile_images) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.303215] (uc1_tactile_images) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.319052] (uc1_tactile_images) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400274] (-) TimerEvent: {}
+[0.500615] (-) TimerEvent: {}
+[0.601035] (-) TimerEvent: {}
+[0.620709] (uc1_tactile_images) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.701133] (-) TimerEvent: {}
+[0.783932] (uc1_tactile_images) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.801238] (-) TimerEvent: {}
+[0.866186] (uc1_tactile_images) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.901375] (-) TimerEvent: {}
+[0.901686] (uc1_tactile_images) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.927482] (uc1_tactile_images) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.955869] (uc1_tactile_images) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001472] (-) TimerEvent: {}
+[1.078273] (uc1_tactile_images) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.081761] (uc1_tactile_images) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101568] (-) TimerEvent: {}
+[1.201860] (-) TimerEvent: {}
+[1.203293] (uc1_tactile_images) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.239939] (uc1_tactile_images) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.285513] (uc1_tactile_images) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.301966] (-) TimerEvent: {}
+[1.402379] (-) TimerEvent: {}
+[1.415851] (uc1_tactile_images) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[1.502483] (-) TimerEvent: {}
+[1.520818] (uc1_tactile_images) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.545349] (uc1_tactile_images) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.602590] (-) TimerEvent: {}
+[1.618389] (uc1_tactile_images) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[1.671977] (uc1_tactile_images) StdoutLine: {'line': b'-- Found interactive_markers: 2.5.5 (/opt/ros/jazzy/share/interactive_markers/cmake)\n'}
+[1.691958] (uc1_tactile_images) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.702697] (-) TimerEvent: {}
+[1.802995] (-) TimerEvent: {}
+[1.891105] (uc1_tactile_images) StdoutLine: {'line': b'-- Found tf2_eigen: 0.36.14 (/opt/ros/jazzy/share/tf2_eigen/cmake)\n'}
+[1.903092] (-) TimerEvent: {}
+[1.906105] (uc1_tactile_images) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.919167] (uc1_tactile_images) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.921296] (uc1_tactile_images) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.921566] (uc1_tactile_images) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.926140] (uc1_tactile_images) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[2.003192] (-) TimerEvent: {}
+[2.042902] (uc1_tactile_images) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[2.043154] (uc1_tactile_images) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[2.043285] (uc1_tactile_images) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[2.043400] (uc1_tactile_images) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[2.043512] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[2.043625] (uc1_tactile_images) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[2.043733] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[2.043857] (uc1_tactile_images) StderrLine: {'line': b'    /usr\n'}
+[2.043966] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[2.044073] (uc1_tactile_images) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[2.044182] (uc1_tactile_images) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[2.044287] (uc1_tactile_images) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.044396] (uc1_tactile_images) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[2.044502] (uc1_tactile_images) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[2.044609] (uc1_tactile_images) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[2.044731] (uc1_tactile_images) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[2.044975] (uc1_tactile_images) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[2.045122] (uc1_tactile_images) StderrLine: {'line': b'  CMakeLists.txt:27 (find_package)\n'}
+[2.045288] (uc1_tactile_images) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.045411] (uc1_tactile_images) StderrLine: {'line': b'\x1b[0m\n'}
+[2.045525] (uc1_tactile_images) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[2.103334] (-) TimerEvent: {}
+[2.203701] (-) TimerEvent: {}
+[2.304380] (-) TimerEvent: {}
+[2.404920] (-) TimerEvent: {}
+[2.505463] (-) TimerEvent: {}
+[2.606171] (-) TimerEvent: {}
+[2.706703] (-) TimerEvent: {}
+[2.807275] (-) TimerEvent: {}
+[2.907889] (-) TimerEvent: {}
+[2.922245] (uc1_tactile_images) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.922734] (uc1_tactile_images) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[3.007986] (-) TimerEvent: {}
+[3.108250] (-) TimerEvent: {}
+[3.208593] (-) TimerEvent: {}
+[3.309099] (-) TimerEvent: {}
+[3.409538] (-) TimerEvent: {}
+[3.509909] (-) TimerEvent: {}
+[3.610346] (-) TimerEvent: {}
+[3.710607] (-) TimerEvent: {}
+[3.810844] (-) TimerEvent: {}
+[3.911114] (-) TimerEvent: {}
+[4.011468] (-) TimerEvent: {}
+[4.111926] (-) TimerEvent: {}
+[4.212452] (-) TimerEvent: {}
+[4.312899] (-) TimerEvent: {}
+[4.413428] (-) TimerEvent: {}
+[4.513925] (-) TimerEvent: {}
+[4.614493] (-) TimerEvent: {}
+[4.715000] (-) TimerEvent: {}
+[4.815574] (-) TimerEvent: {}
+[4.916172] (-) TimerEvent: {}
+[5.016723] (-) TimerEvent: {}
+[5.117273] (-) TimerEvent: {}
+[5.217742] (-) TimerEvent: {}
+[5.318045] (-) TimerEvent: {}
+[5.418384] (-) TimerEvent: {}
+[5.518689] (-) TimerEvent: {}
+[5.541825] (uc1_tactile_images) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[5.559862] (uc1_tactile_images) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[5.605838] (uc1_tactile_images) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[5.608664] (uc1_tactile_images) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.618825] (-) TimerEvent: {}
+[5.713053] (uc1_tactile_images) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.718965] (-) TimerEvent: {}
+[5.724063] (uc1_tactile_images) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[5.769694] (uc1_tactile_images) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[5.819099] (-) TimerEvent: {}
+[5.822056] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[5.919211] (-) TimerEvent: {}
+[6.019582] (-) TimerEvent: {}
+[6.120071] (-) TimerEvent: {}
+[6.220540] (-) TimerEvent: {}
+[6.320804] (-) TimerEvent: {}
+[6.421108] (-) TimerEvent: {}
+[6.484861] (uc1_tactile_images) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.493802] (uc1_tactile_images) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.521212] (-) TimerEvent: {}
+[6.621522] (-) TimerEvent: {}
+[6.721858] (-) TimerEvent: {}
+[6.822267] (-) TimerEvent: {}
+[6.922579] (-) TimerEvent: {}
+[7.022829] (-) TimerEvent: {}
+[7.123125] (-) TimerEvent: {}
+[7.161489] (uc1_tactile_images) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[7.223232] (-) TimerEvent: {}
+[7.323510] (-) TimerEvent: {}
+[7.423830] (-) TimerEvent: {}
+[7.524099] (-) TimerEvent: {}
+[7.624379] (-) TimerEvent: {}
+[7.724654] (-) TimerEvent: {}
+[7.764594] (uc1_tactile_images) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.824754] (-) TimerEvent: {}
+[7.925033] (-) TimerEvent: {}
+[8.025333] (-) TimerEvent: {}
+[8.125740] (-) TimerEvent: {}
+[8.226026] (-) TimerEvent: {}
+[8.326303] (-) TimerEvent: {}
+[8.411560] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[8.413386] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[8.415244] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[8.417572] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[8.419488] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[8.421384] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[8.422191] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[8.423085] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[8.425091] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[8.426376] (-) TimerEvent: {}
+[8.427114] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[8.429509] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[8.431693] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[8.434183] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[8.436399] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[8.438521] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[8.440669] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[8.442816] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[8.444800] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[8.447044] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[8.449079] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[8.450732] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[8.451530] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[8.452598] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[8.454817] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[8.456876] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[8.468139] (uc1_tactile_images) StdoutLine: {'line': b'-- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)\n'}
+[8.509795] (uc1_tactile_images) StdoutLine: {'line': b'-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)\n'}
+[8.526488] (-) TimerEvent: {}
+[8.538880] (uc1_tactile_images) StdoutLine: {'line': b'-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) \n'}
+[8.551643] (uc1_tactile_images) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[8.579687] (uc1_tactile_images) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[8.582031] (uc1_tactile_images) StdoutLine: {'line': b'-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[8.590831] (uc1_tactile_images) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[8.616699] (uc1_tactile_images) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[8.626667] (-) TimerEvent: {}
+[8.726978] (-) TimerEvent: {}
+[8.827228] (-) TimerEvent: {}
+[8.927474] (-) TimerEvent: {}
+[9.027719] (-) TimerEvent: {}
+[9.127992] (-) TimerEvent: {}
+[9.228239] (-) TimerEvent: {}
+[9.328504] (-) TimerEvent: {}
+[9.428828] (-) TimerEvent: {}
+[9.529132] (-) TimerEvent: {}
+[9.629398] (-) TimerEvent: {}
+[9.674834] (uc1_tactile_images) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[9.729535] (-) TimerEvent: {}
+[9.829910] (-) TimerEvent: {}
+[9.930200] (-) TimerEvent: {}
+[10.030530] (-) TimerEvent: {}
+[10.130852] (-) TimerEvent: {}
+[10.231154] (-) TimerEvent: {}
+[10.331500] (-) TimerEvent: {}
+[10.431758] (-) TimerEvent: {}
+[10.532045] (-) TimerEvent: {}
+[10.632385] (-) TimerEvent: {}
+[10.732711] (-) TimerEvent: {}
+[10.833036] (-) TimerEvent: {}
+[10.933439] (-) TimerEvent: {}
+[11.033751] (-) TimerEvent: {}
+[11.134085] (-) TimerEvent: {}
+[11.234445] (-) TimerEvent: {}
+[11.334848] (-) TimerEvent: {}
+[11.369107] (uc1_tactile_images) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.434949] (-) TimerEvent: {}
+[11.535301] (-) TimerEvent: {}
+[11.635685] (-) TimerEvent: {}
+[11.736132] (-) TimerEvent: {}
+[11.836395] (-) TimerEvent: {}
+[11.936685] (-) TimerEvent: {}
+[12.036976] (-) TimerEvent: {}
+[12.040780] (uc1_tactile_images) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.050081] (uc1_tactile_images) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[12.137158] (-) TimerEvent: {}
+[12.237576] (-) TimerEvent: {}
+[12.337991] (-) TimerEvent: {}
+[12.381319] (uc1_tactile_images) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[12.438109] (-) TimerEvent: {}
+[12.538359] (-) TimerEvent: {}
+[12.638647] (-) TimerEvent: {}
+[12.738929] (-) TimerEvent: {}
+[12.839247] (-) TimerEvent: {}
+[12.939508] (-) TimerEvent: {}
+[13.039844] (-) TimerEvent: {}
+[13.140135] (-) TimerEvent: {}
+[13.168804] (uc1_tactile_images) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[13.240244] (-) TimerEvent: {}
+[13.302258] (uc1_tactile_images) StdoutLine: {'line': b'-- OPTIONS: OPENCV support ENABLED\n'}
+[13.340380] (-) TimerEvent: {}
+[13.341241] (uc1_tactile_images) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[13.341577] (uc1_tactile_images) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[13.341819] (uc1_tactile_images) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[13.342034] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[13.342218] (uc1_tactile_images) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[13.342408] (uc1_tactile_images) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[13.342602] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[13.342807] (uc1_tactile_images) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.343005] (uc1_tactile_images) StderrLine: {'line': b'  CMakeLists.txt:108 (rosidl_target_interfaces)\n'}
+[13.343180] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[13.343367] (uc1_tactile_images) StderrLine: {'line': b'\x1b[0m\n'}
+[13.378959] (uc1_tactile_images) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[13.379306] (uc1_tactile_images) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[13.379522] (uc1_tactile_images) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[13.379833] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[13.380040] (uc1_tactile_images) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[13.380241] (uc1_tactile_images) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[13.380432] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[13.380621] (uc1_tactile_images) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.380823] (uc1_tactile_images) StderrLine: {'line': b'  CMakeLists.txt:138 (rosidl_target_interfaces)\n'}
+[13.381018] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[13.381195] (uc1_tactile_images) StderrLine: {'line': b'\x1b[0m\n'}
+[13.405920] (uc1_tactile_images) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[13.406145] (uc1_tactile_images) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[13.406265] (uc1_tactile_images) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[13.406372] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[13.406480] (uc1_tactile_images) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[13.406586] (uc1_tactile_images) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[13.406691] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[13.406805] (uc1_tactile_images) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.406914] (uc1_tactile_images) StderrLine: {'line': b'  CMakeLists.txt:168 (rosidl_target_interfaces)\n'}
+[13.407019] (uc1_tactile_images) StderrLine: {'line': b'\n'}
+[13.407119] (uc1_tactile_images) StderrLine: {'line': b'\x1b[0m\n'}
+[13.413197] (uc1_tactile_images) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[13.440471] (-) TimerEvent: {}
+[13.512081] (uc1_tactile_images) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.516763] (uc1_tactile_images) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/lidia/ros2_ws/src/uc1_tactile_images/include\n'}
+[13.516993] (uc1_tactile_images) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.521895] (uc1_tactile_images) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[13.522145] (uc1_tactile_images) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[13.528580] (uc1_tactile_images) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.532214] (uc1_tactile_images) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[13.540567] (-) TimerEvent: {}
+[13.553175] (uc1_tactile_images) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.553408] (uc1_tactile_images) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.556721] (uc1_tactile_images) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.560806] (uc1_tactile_images) StdoutLine: {'line': b'-- Configuring done (13.5s)\n'}
+[13.640670] (-) TimerEvent: {}
+[13.740936] (-) TimerEvent: {}
+[13.830616] (uc1_tactile_images) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[13.841080] (-) TimerEvent: {}
+[13.885269] (uc1_tactile_images) StdoutLine: {'line': b'-- Build files have been written to: /home/lidia/ros2_ws/src/build/uc1_tactile_images\n'}
+[13.920269] (uc1_tactile_images) CommandEnded: {'returncode': 0}
+[13.921458] (uc1_tactile_images) JobProgress: {'identifier': 'uc1_tactile_images', 'progress': 'build'}
+[13.923193] (uc1_tactile_images) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lidia/ros2_ws/src/build/uc1_tactile_images', '--', '-j8', '-l8'], 'cwd': '/home/lidia/ros2_ws/src/build/uc1_tactile_images', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lidia', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lidia', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2161', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=433091d739e563a467c0f9d16925c4bf', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lidia/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/lidia/ros2_ws/install/cyskin_acquisition/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lidia-IdeaPad-3-15IML05:@/tmp/.ICE-unix/2161,unix/lidia-IdeaPad-3-15IML05:/tmp/.ICE-unix/2161', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0d56756_916b_4b94_890b_94ca003ec1c3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GV4TG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lidia/ros2_ws/src/build/uc1_tactile_images', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=433091d739e563a467c0f9d16925c4bf', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/lidia/ros2_ws/install/uc1_tactile_images:/opt/ros/jazzy:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[13.941189] (-) TimerEvent: {}
+[14.041566] (-) TimerEvent: {}
+[14.046231] (uc1_tactile_images) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[14.073238] (uc1_tactile_images) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_uc1_tactile_images\n'}
+[14.145643] (-) TimerEvent: {}
+[14.246305] (-) TimerEvent: {}
+[14.346717] (-) TimerEvent: {}
+[14.447010] (-) TimerEvent: {}
+[14.535488] (uc1_tactile_images) StdoutLine: {'line': b'[  2%] Built target uc1_tactile_images__rosidl_generator_type_description\n'}
+[14.547130] (-) TimerEvent: {}
+[14.552635] (uc1_tactile_images) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[14.567178] (uc1_tactile_images) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[14.575408] (uc1_tactile_images) StdoutLine: {'line': b'running egg_info\n'}
+[14.576930] (uc1_tactile_images) StdoutLine: {'line': b'creating uc1_tactile_images.egg-info\n'}
+[14.610815] (uc1_tactile_images) StdoutLine: {'line': b'writing uc1_tactile_images.egg-info/PKG-INFO\n'}
+[14.611199] (uc1_tactile_images) StdoutLine: {'line': b'writing dependency_links to uc1_tactile_images.egg-info/dependency_links.txt\n'}
+[14.611531] (uc1_tactile_images) StdoutLine: {'line': b'writing top-level names to uc1_tactile_images.egg-info/top_level.txt\n'}
+[14.611778] (uc1_tactile_images) StdoutLine: {'line': b"writing manifest file 'uc1_tactile_images.egg-info/SOURCES.txt'\n"}
+[14.647230] (-) TimerEvent: {}
+[14.709696] (uc1_tactile_images) StdoutLine: {'line': b"reading manifest file 'uc1_tactile_images.egg-info/SOURCES.txt'\n"}
+[14.710462] (uc1_tactile_images) StdoutLine: {'line': b"writing manifest file 'uc1_tactile_images.egg-info/SOURCES.txt'\n"}
+[14.747336] (-) TimerEvent: {}
+[14.751277] (uc1_tactile_images) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_uc1_tactile_images_egg\n'}
+[14.847444] (-) TimerEvent: {}
+[14.932377] (uc1_tactile_images) StdoutLine: {'line': b'[  7%] Built target uc1_tactile_images__cpp\n'}
+[14.947563] (-) TimerEvent: {}
+[14.973932] (uc1_tactile_images) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/uc1_tactile_images__rosidl_generator_c.dir/rosidl_generator_c/uc1_tactile_images/msg/detail/image_array_link__description.c.o\x1b[0m\n'}
+[14.974962] (uc1_tactile_images) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/uc1_tactile_images__rosidl_generator_c.dir/rosidl_generator_c/uc1_tactile_images/msg/detail/image_array_link__functions.c.o\x1b[0m\n'}
+[14.975268] (uc1_tactile_images) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/uc1_tactile_images__rosidl_generator_c.dir/rosidl_generator_c/uc1_tactile_images/msg/detail/image_array_link__type_support.c.o\x1b[0m\n'}
+[15.047676] (-) TimerEvent: {}
+[15.059205] (uc1_tactile_images) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libuc1_tactile_images__rosidl_generator_c.so\x1b[0m\n'}
+[15.147880] (-) TimerEvent: {}
+[15.162719] (uc1_tactile_images) StdoutLine: {'line': b'[ 17%] Built target uc1_tactile_images__rosidl_generator_c\n'}
+[15.198472] (uc1_tactile_images) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.199331] (uc1_tactile_images) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.206398] (uc1_tactile_images) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.207477] (uc1_tactile_images) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[15.209200] (uc1_tactile_images) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.212437] (uc1_tactile_images) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[15.248061] (-) TimerEvent: {}
+[15.352129] (-) TimerEvent: {}
+[15.454836] (-) TimerEvent: {}
+[15.555209] (-) TimerEvent: {}
+[15.655510] (-) TimerEvent: {}
+[15.747710] (uc1_tactile_images) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/uc1_tactile_images__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uc1_tactile_images/msg/detail/image_array_link__type_support.c.o\x1b[0m\n'}
+[15.755626] (-) TimerEvent: {}
+[15.776090] (uc1_tactile_images) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/uc1_tactile_images__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uc1_tactile_images/msg/detail/image_array_link__type_support_c.cpp.o\x1b[0m\n'}
+[15.817865] (uc1_tactile_images) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking C shared library libuc1_tactile_images__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.855758] (-) TimerEvent: {}
+[15.896970] (uc1_tactile_images) StdoutLine: {'line': b'[ 40%] Built target uc1_tactile_images__rosidl_typesupport_introspection_c\n'}
+[15.904327] (uc1_tactile_images) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/uc1_tactile_images__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uc1_tactile_images/msg/image_array_link__type_support.cpp.o\x1b[0m\n'}
+[15.928669] (uc1_tactile_images) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/uc1_tactile_images__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uc1_tactile_images/msg/detail/image_array_link__type_support.cpp.o\x1b[0m\n'}
+[15.930127] (uc1_tactile_images) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/uc1_tactile_images__rosidl_typesupport_c.dir/rosidl_typesupport_c/uc1_tactile_images/msg/image_array_link__type_support.cpp.o\x1b[0m\n'}
+[15.956709] (-) TimerEvent: {}
+[15.957492] (uc1_tactile_images) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/uc1_tactile_images__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uc1_tactile_images/msg/detail/dds_fastrtps/image_array_link__type_support.cpp.o\x1b[0m\n'}
+[16.018943] (uc1_tactile_images) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libuc1_tactile_images__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.056834] (-) TimerEvent: {}
+[16.100446] (uc1_tactile_images) StdoutLine: {'line': b'[ 52%] Built target uc1_tactile_images__rosidl_typesupport_c\n'}
+[16.156958] (-) TimerEvent: {}
+[16.257292] (-) TimerEvent: {}
+[16.357667] (-) TimerEvent: {}
+[16.458061] (-) TimerEvent: {}
+[16.533234] (uc1_tactile_images) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libuc1_tactile_images__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[16.558191] (-) TimerEvent: {}
+[16.585961] (uc1_tactile_images) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libuc1_tactile_images__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.600549] (uc1_tactile_images) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libuc1_tactile_images__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.604618] (uc1_tactile_images) StdoutLine: {'line': b'[ 60%] Built target uc1_tactile_images__rosidl_typesupport_cpp\n'}
+[16.658328] (-) TimerEvent: {}
+[16.666695] (uc1_tactile_images) StdoutLine: {'line': b'[ 60%] Built target uc1_tactile_images__rosidl_typesupport_fastrtps_c\n'}
+[16.725774] (uc1_tactile_images) StdoutLine: {'line': b'[ 60%] Built target uc1_tactile_images__rosidl_typesupport_introspection_cpp\n'}
+[16.758428] (-) TimerEvent: {}
+[16.851704] (uc1_tactile_images) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libuc1_tactile_images__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[16.858545] (-) TimerEvent: {}
+[16.937524] (uc1_tactile_images) StdoutLine: {'line': b'[ 62%] Built target uc1_tactile_images__rosidl_typesupport_fastrtps_cpp\n'}
+[16.958683] (-) TimerEvent: {}
+[16.980017] (uc1_tactile_images) StdoutLine: {'line': b'[ 62%] Built target uc1_tactile_images\n'}
+[17.018927] (uc1_tactile_images) StderrLine: {'line': b"gmake[2]: *** No rule to make target '/home/lidia/ros2_ws/src/robotskinlib/build/librobotskin.so', needed by 'tactile_image_publisher_hexagon'.  Stop.\n"}
+[17.019615] (uc1_tactile_images) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[17.020200] (uc1_tactile_images) StderrLine: {'line': b"gmake[2]: *** No rule to make target '/home/lidia/ros2_ws/src/robotskinlib/build/librobotskin.so', needed by 'tactile_image_publisher'.  Stop.\n"}
+[17.020726] (uc1_tactile_images) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[17.021380] (uc1_tactile_images) StderrLine: {'line': b"gmake[2]: *** No rule to make target '/home/lidia/ros2_ws/src/robotskinlib/build/librobotskin.so', needed by 'tactile_image_publisher_curved_gesture'.  Stop.\n"}
+[17.021899] (uc1_tactile_images) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[17.040016] (uc1_tactile_images) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/tactile_image_publisher_curved_gesture.dir/src/TactileImagePublisherCurvedGesture.cpp.o\x1b[0m\n'}
+[17.040606] (uc1_tactile_images) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[17.046539] (uc1_tactile_images) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/tactile_image_publisher.dir/src/TactileImagePublisher.cpp.o\x1b[0m\n'}
+[17.047622] (uc1_tactile_images) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/tactile_image_publisher_hexagon.dir/src/TactileImagePublisherHexagon.cpp.o\x1b[0m\n'}
+[17.060039] (-) TimerEvent: {}
+[17.088072] (uc1_tactile_images) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisher.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krsl_typenames.hpp: No such file or directory\n'}
+[17.088902] (uc1_tactile_images) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"rsl_typenames.hpp"\x1b[m\x1b[K\n'}
+[17.089437] (uc1_tactile_images) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.089909] (uc1_tactile_images) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherHexagon.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krsl_typenames.hpp: No such file or directory\n'}
+[17.090379] (uc1_tactile_images) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"rsl_typenames.hpp"\x1b[m\x1b[K\n'}
+[17.091308] (uc1_tactile_images) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.092120] (uc1_tactile_images) StderrLine: {'line': b'compilation terminated.\n'}
+[17.092602] (uc1_tactile_images) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krsl_typenames.hpp: No such file or directory\n'}
+[17.093097] (uc1_tactile_images) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"rsl_typenames.hpp"\x1b[m\x1b[K\n'}
+[17.093878] (uc1_tactile_images) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.094428] (uc1_tactile_images) StderrLine: {'line': b'compilation terminated.\n'}
+[17.094864] (uc1_tactile_images) StderrLine: {'line': b'compilation terminated.\n'}
+[17.095276] (uc1_tactile_images) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tactile_image_publisher.dir/build.make:76: CMakeFiles/tactile_image_publisher.dir/src/TactileImagePublisher.cpp.o] Error 1\n'}
+[17.095740] (uc1_tactile_images) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tactile_image_publisher_curved_gesture.dir/build.make:76: CMakeFiles/tactile_image_publisher_curved_gesture.dir/src/TactileImagePublisherCurvedGesture.cpp.o] Error 1\n'}
+[17.096195] (uc1_tactile_images) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:688: CMakeFiles/tactile_image_publisher_curved_gesture.dir/all] Error 2\n'}
+[17.096613] (uc1_tactile_images) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[17.097076] (uc1_tactile_images) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:630: CMakeFiles/tactile_image_publisher.dir/all] Error 2\n'}
+[17.097499] (uc1_tactile_images) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tactile_image_publisher_hexagon.dir/build.make:76: CMakeFiles/tactile_image_publisher_hexagon.dir/src/TactileImagePublisherHexagon.cpp.o] Error 1\n'}
+[17.097949] (uc1_tactile_images) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/tactile_image_publisher_hexagon.dir/all] Error 2\n'}
+[17.160169] (-) TimerEvent: {}
+[17.260561] (-) TimerEvent: {}
+[17.360838] (-) TimerEvent: {}
+[17.461096] (-) TimerEvent: {}
+[17.529855] (uc1_tactile_images) StdoutLine: {'line': b'[ 72%] Built target uc1_tactile_images__py\n'}
+[17.531410] (uc1_tactile_images) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.534016] (uc1_tactile_images) CommandEnded: {'returncode': 2}
+[17.545963] (uc1_tactile_images) JobEnded: {'identifier': 'uc1_tactile_images', 'rc': 2}
+[17.556589] (-) EventReactorShutdown: {}

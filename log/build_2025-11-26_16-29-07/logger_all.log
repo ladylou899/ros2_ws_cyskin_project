@@ -1,0 +1,826 @@
+[0.235s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.235s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f655955ecf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f655955eae0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f655955eae0>>)
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.320s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lidia/ros2_ws'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyskin_acquisition) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyskin_acquisition) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyskin_acquisition) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyskin_acquisition) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyskin_acquisition) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyskin_acquisition) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyskin_acquisition) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyskin_acquisition) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cyskin_acquisition) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cyskin_acquisition' with type 'ros.ament_cmake' and name 'cyskin_acquisition'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/Documentation) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extensions ['cmake', 'python']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extension 'ros'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extensions ['cmake', 'python']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extension 'cmake'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extension 'python'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extensions ['python_setup_py']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/src) by extension 'python_setup_py'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extension 'ros'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extensions ['cmake', 'python']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extension 'cmake'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extensions ['python_setup_py']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/driver/udev) by extension 'python_setup_py'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extension 'ros'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extensions ['cmake', 'python']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extension 'cmake'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extension 'python'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extensions ['python_setup_py']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib) by extension 'python_setup_py'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extension 'ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extension 'python'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extensions ['python_setup_py']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/lib) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/obj) by extension 'python_setup_py'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extension 'ros'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extensions ['cmake', 'python']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extension 'cmake'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/lib/src) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extension 'ros'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extensions ['cmake', 'python']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extension 'cmake'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extension 'python'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extensions ['python_setup_py']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic) by extension 'python_setup_py'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extension 'ros'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extensions ['cmake', 'python']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extension 'cmake'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extension 'python'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extensions ['python_setup_py']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/doc) by extension 'python_setup_py'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extension 'ros'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extensions ['cmake', 'python']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extension 'cmake'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extension 'python'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extensions ['python_setup_py']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples) by extension 'python_setup_py'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extension 'ros'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extensions ['cmake', 'python']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extension 'cmake'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++) by extension 'python_setup_py'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extensions ['python_setup_py']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/01_LookUpChannel) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extension 'cmake'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/02_GetSetParameter) by extension 'python_setup_py'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extension 'ignore_ament_install'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extensions ['colcon_pkg']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extension 'colcon_pkg'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extensions ['colcon_meta']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extension 'colcon_meta'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extension 'ros'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extensions ['cmake', 'python']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extension 'cmake'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extension 'python'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extensions ['python_setup_py']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/03_ManualRead) by extension 'python_setup_py'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extension 'ros'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extensions ['cmake', 'python']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extension 'cmake'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extension 'python'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extensions ['python_setup_py']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/04_ManualWrite) by extension 'python_setup_py'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extension 'ros'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extension 'python'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extensions ['python_setup_py']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/05_TimerRead) by extension 'python_setup_py'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extension 'cmake'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extension 'python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extensions ['python_setup_py']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/06_TimerWrite) by extension 'python_setup_py'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/07_ThreadRead) by extension 'python_setup_py'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extension 'cmake'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extension 'python'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extensions ['python_setup_py']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/08_EventDrivenRead) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extension 'ros'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extensions ['cmake', 'python']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extension 'cmake'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extension 'python'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extensions ['python_setup_py']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/NativeC++/09_TraceFiles) by extension 'python_setup_py'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extension 'ros'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extensions ['cmake', 'python']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extension 'cmake'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extension 'python'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/01_LookUpChannel) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/02_GetSetParameter) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/03_ManualRead) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extension 'python'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/04_ManualWrite) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extension 'ros'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extensions ['cmake', 'python']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extension 'cmake'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extension 'python'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extensions ['python_setup_py']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/05_TimerRead) by extension 'python_setup_py'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extension 'ros'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extensions ['cmake', 'python']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extension 'cmake'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extension 'python'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extensions ['python_setup_py']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/06_TimerWrite) by extension 'python_setup_py'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/07_ThreadRead) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extension 'ros'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extensions ['cmake', 'python']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extension 'cmake'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/08_EventDrivenRead) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/Python/09_TraceFiles) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extension 'ros'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extensions ['cmake', 'python']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extension 'cmake'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extension 'python'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extensions ['python_setup_py']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/examples/c/src) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extension 'ros'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extensions ['cmake', 'python']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extension 'cmake'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extension 'python'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extensions ['python_setup_py']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic) by extension 'python_setup_py'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extensions ['cmake', 'python']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extension 'python'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extensions ['python_setup_py']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/include) by extension 'python_setup_py'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extension 'ros'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extensions ['cmake', 'python']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extension 'cmake'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extension 'python'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extensions ['python_setup_py']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/lib) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extension 'ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extensions ['cmake', 'python']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extension 'cmake'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extension 'python'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/out) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcanbasic/src) by extension 'python_setup_py'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extension 'ros'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extensions ['cmake', 'python']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extensions ['python_setup_py']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/libpcanbasic/pcaninfo/src) by extension 'python_setup_py'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extension 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test) by extension 'python_setup_py'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extension 'ros'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extensions ['cmake', 'python']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extension 'cmake'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extension 'python'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extensions ['python_setup_py']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_rtai) by extension 'python_setup_py'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extensions ['cmake', 'python']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extension 'cmake'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extension 'python'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extensions ['python_setup_py']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/minimal_xenomai) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extension 'ros'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/peak-linux-driver-8.20.0/test/src) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uc1_tactile_images) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uc1_tactile_images) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uc1_tactile_images) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uc1_tactile_images) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uc1_tactile_images) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uc1_tactile_images) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uc1_tactile_images) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uc1_tactile_images) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uc1_tactile_images) by extension 'ros'
+[0.466s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uc1_tactile_images' with type 'ros.ament_cmake' and name 'uc1_tactile_images'
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.506s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lidia/ros2_ws/install/cyskin_acquisition' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.506s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lidia/ros2_ws/install/cyskin_acquisition' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.507s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/lidia/ros2_ws/install
+[0.508s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lidia/ros2_ws/src/install
+[0.512s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'cyskin_acquisition' build argument 'cmake_args' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'cyskin_acquisition' build argument 'cmake_target' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'cyskin_acquisition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'cyskin_acquisition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'cyskin_acquisition' build argument 'cmake_clean_first' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'cyskin_acquisition' build argument 'cmake_force_configure' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'cyskin_acquisition' build argument 'ament_cmake_args' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'cyskin_acquisition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'cyskin_acquisition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.616s] DEBUG:colcon.colcon_core.verb:Building package 'cyskin_acquisition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lidia/ros2_ws/build/cyskin_acquisition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lidia/ros2_ws/install/cyskin_acquisition', 'merge_install': False, 'path': '/home/lidia/ros2_ws/src/cyskin_acquisition', 'symlink_install': False, 'test_result_base': None}
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'uc1_tactile_images' build argument 'cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'uc1_tactile_images' build argument 'cmake_target' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'uc1_tactile_images' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'uc1_tactile_images' build argument 'cmake_clean_cache' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'uc1_tactile_images' build argument 'cmake_clean_first' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'uc1_tactile_images' build argument 'cmake_force_configure' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'uc1_tactile_images' build argument 'ament_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'uc1_tactile_images' build argument 'catkin_cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'uc1_tactile_images' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.618s] DEBUG:colcon.colcon_core.verb:Building package 'uc1_tactile_images' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lidia/ros2_ws/build/uc1_tactile_images', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lidia/ros2_ws/install/uc1_tactile_images', 'merge_install': False, 'path': '/home/lidia/ros2_ws/src/uc1_tactile_images', 'symlink_install': False, 'test_result_base': None}
+[0.618s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.619s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.619s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lidia/ros2_ws/src/cyskin_acquisition' with build type 'ament_cmake'
+[0.620s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lidia/ros2_ws/src/cyskin_acquisition'
+[0.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.624s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.631s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lidia/ros2_ws/src/uc1_tactile_images' with build type 'ament_cmake'
+[0.632s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lidia/ros2_ws/src/uc1_tactile_images'
+[0.632s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.632s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lidia/ros2_ws/build/cyskin_acquisition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lidia/ros2_ws/src/cyskin_acquisition -DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/install/cyskin_acquisition
+[0.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lidia/ros2_ws/build/uc1_tactile_images': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lidia/ros2_ws/src/uc1_tactile_images -DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/install/uc1_tactile_images
+[3.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lidia/ros2_ws/build/cyskin_acquisition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lidia/ros2_ws/src/cyskin_acquisition -DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/install/cyskin_acquisition
+[3.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lidia/ros2_ws/build/cyskin_acquisition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lidia/ros2_ws/build/cyskin_acquisition -- -j8 -l8
+[22.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lidia/ros2_ws/build/uc1_tactile_images' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lidia/ros2_ws/src/uc1_tactile_images -DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/install/uc1_tactile_images
+[22.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lidia/ros2_ws/build/uc1_tactile_images': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lidia/ros2_ws/build/uc1_tactile_images -- -j8 -l8
+[22.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lidia/ros2_ws/build/cyskin_acquisition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lidia/ros2_ws/build/cyskin_acquisition -- -j8 -l8
+[22.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lidia/ros2_ws/build/cyskin_acquisition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lidia/ros2_ws/build/cyskin_acquisition
+[22.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cyskin_acquisition)
+[22.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lidia/ros2_ws/build/cyskin_acquisition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lidia/ros2_ws/build/cyskin_acquisition
+[22.968s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition' for CMake module files
+[22.970s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition' for CMake config files
+[22.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyskin_acquisition', 'cmake_prefix_path')
+[22.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/hook/cmake_prefix_path.ps1'
+[22.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/hook/cmake_prefix_path.dsv'
+[22.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/hook/cmake_prefix_path.sh'
+[22.976s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition/lib'
+[22.976s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition/bin'
+[22.977s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition/lib/pkgconfig/cyskin_acquisition.pc'
+[22.977s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition/lib/python3.12/site-packages'
+[22.979s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition/bin'
+[22.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.ps1'
+[22.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.dsv'
+[22.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.sh'
+[22.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.bash'
+[22.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.zsh'
+[22.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lidia/ros2_ws/install/cyskin_acquisition/share/colcon-core/packages/cyskin_acquisition)
+[22.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cyskin_acquisition)
+[22.991s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition' for CMake module files
+[22.992s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition' for CMake config files
+[22.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyskin_acquisition', 'cmake_prefix_path')
+[22.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/hook/cmake_prefix_path.ps1'
+[22.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/hook/cmake_prefix_path.dsv'
+[22.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/hook/cmake_prefix_path.sh'
+[22.996s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition/lib'
+[22.996s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition/bin'
+[22.996s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition/lib/pkgconfig/cyskin_acquisition.pc'
+[22.996s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition/lib/python3.12/site-packages'
+[22.997s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/cyskin_acquisition/bin'
+[22.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.ps1'
+[22.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.dsv'
+[23.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.sh'
+[23.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.bash'
+[23.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.zsh'
+[23.002s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lidia/ros2_ws/install/cyskin_acquisition/share/colcon-core/packages/cyskin_acquisition)
+[26.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lidia/ros2_ws/build/uc1_tactile_images' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lidia/ros2_ws/build/uc1_tactile_images -- -j8 -l8
+[26.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uc1_tactile_images)
+[26.533s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/uc1_tactile_images' for CMake module files
+[26.534s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/uc1_tactile_images' for CMake config files
+[26.534s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/uc1_tactile_images/bin'
+[26.534s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/uc1_tactile_images/lib/pkgconfig/uc1_tactile_images.pc'
+[26.535s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages'
+[26.536s] Level 1:colcon.colcon_core.environment:checking '/home/lidia/ros2_ws/install/uc1_tactile_images/bin'
+[26.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/package.ps1'
+[26.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/package.dsv'
+[26.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/package.sh'
+[26.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/package.bash'
+[26.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/package.zsh'
+[26.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lidia/ros2_ws/install/uc1_tactile_images/share/colcon-core/packages/uc1_tactile_images)
+[26.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[26.542s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.553s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.554s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.554s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.581s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.581s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lidia/ros2_ws/install/local_setup.ps1'
+[26.583s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lidia/ros2_ws/install/_local_setup_util_ps1.py'
+[26.585s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lidia/ros2_ws/install/setup.ps1'
+[26.587s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lidia/ros2_ws/install/local_setup.sh'
+[26.588s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lidia/ros2_ws/install/_local_setup_util_sh.py'
+[26.589s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lidia/ros2_ws/install/setup.sh'
+[26.591s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lidia/ros2_ws/install/local_setup.bash'
+[26.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lidia/ros2_ws/install/setup.bash'
+[26.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lidia/ros2_ws/install/local_setup.zsh'
+[26.594s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lidia/ros2_ws/install/setup.zsh'

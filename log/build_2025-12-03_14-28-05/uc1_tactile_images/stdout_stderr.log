@@ -1,0 +1,558 @@
+[  2%] Built target uc1_tactile_images__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_uc1_tactile_images
+[  5%] Built target uc1_tactile_images__cpp
+[ 17%] Built target uc1_tactile_images__rosidl_generator_c
+[ 25%] Built target uc1_tactile_images__rosidl_typesupport_introspection_c
+[ 32%] Built target uc1_tactile_images__rosidl_typesupport_c
+[ 40%] Built target uc1_tactile_images__rosidl_typesupport_cpp
+[ 47%] Built target uc1_tactile_images__rosidl_typesupport_fastrtps_cpp
+[ 55%] Built target uc1_tactile_images__rosidl_typesupport_introspection_cpp
+[ 62%] Built target uc1_tactile_images__rosidl_typesupport_fastrtps_c
+[ 62%] Built target uc1_tactile_images
+[ 65%] Built target uc1_tactile_images__py
+[ 70%] Built target tactile_image_publisher_hexagon
+[ 75%] Built target tactile_image_publisher
+[ 77%] [32mBuilding CXX object CMakeFiles/tactile_image_publisher_curved_gesture.dir/src/TactileImagePublisherCurvedGesture.cpp.o[0m
+[ 82%] Built target uc1_tactile_images__rosidl_generator_py
+[ 87%] Built target uc1_tactile_images_s__rosidl_typesupport_c
+[ 92%] Built target uc1_tactile_images_s__rosidl_typesupport_introspection_c
+[ 97%] Built target uc1_tactile_images_s__rosidl_typesupport_fastrtps_c
+running egg_info
+writing uc1_tactile_images.egg-info/PKG-INFO
+writing dependency_links to uc1_tactile_images.egg-info/dependency_links.txt
+writing top-level names to uc1_tactile_images.egg-info/top_level.txt
+reading manifest file 'uc1_tactile_images.egg-info/SOURCES.txt'
+writing manifest file 'uc1_tactile_images.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_uc1_tactile_images_egg
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:8[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:2[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:91:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   91 |         [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() { return n_taxels; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:92:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   92 |         [01;35m[Kconst[m[K uint32_t getNumberOfFaces() { return n_faces; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:94:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   94 |         [01;35m[Kconst[m[K uint32_t getTaxelStartIndex() { return taxel_start_index; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:95:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   95 |         [01;35m[Kconst[m[K uint32_t getFacesStartIndex() { return faces_start_index; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:100:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  100 |         [01;35m[Kconst[m[K bool isTfProvided() { return is_tf_provided; };
+      |         [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/taxel_interface.hpp:7[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/taxel.hpp:7[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:9[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:[m[K In member function ‘[01m[Kvirtual float rsl::TaxelResponseModel::[01;32m[KcomputePressureFromRaw[m[K(uint32_t)[m[K’:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:16:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktaxel_response[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |         virtual float computePressureFromRaw( [01;35m[Kuint32_t taxel_response[m[K ) { return -1; };
+      |                                               [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:[m[K In member function ‘[01m[Kvirtual float rsl::TaxelResponseModel::[01;32m[KcomputeForceFromRaw[m[K(uint32_t)[m[K’:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:17:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktaxel_response[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   17 |         virtual float computeForceFromRaw( [01;35m[Kuint32_t taxel_response[m[K ) { return -1; };
+      |                                            [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:10[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:[m[K At global scope:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:72:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   72 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:78:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   78 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfFaces() = 0;
+      |             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:9[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:19[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:143[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp.hpp:23:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   23 |     virtual [01;35m[Kconst[m[K uint64_t getTimestampInMSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp.hpp:29:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   29 |     virtual [01;35m[Kconst[m[K double getTimestampInSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:41:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   41 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start_time).count(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:47:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   47 |     [01;35m[Kconst[m[K double getTimestampInSec() { return double(getTimestampInMSec()) / 1000; };
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:20[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external.hpp:28:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   28 |     virtual [01;35m[Kconst[m[K uint64_t getTimestampInMSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external.hpp:34:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   34 |     virtual [01;35m[Kconst[m[K double getTimestampInSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:177:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  177 |     [01;35m[Kconst[m[K uint32_t getNoiseThreshold() { return noise_threshold; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:183:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  183 |     [01;35m[Kconst[m[K uint32_t getActivationThreshold() { return activation_threshold; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:189:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  189 |     [01;35m[Kconst[m[K uint64_t getNumberOfSamples() { return number_of_samples; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:195:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  195 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return timestamp->getTimestampInMSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:201:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  201 |     [01;35m[Kconst[m[K double getTimestampInSec() { return timestamp->getTimestampInSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:207:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  207 |     [01;35m[Kconst[m[K uint64_t getLocalTimeElapsedInMSec() { return local_timestamp->getTimestampInMSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:213:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  213 |     [01;35m[Kconst[m[K double getLocalTimeElapsedInSec() { return local_timestamp->getTimestampInSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:219:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  219 |     [01;35m[Kconst[m[K AcquisitionType getAcquisitionType() { return acquisition_type; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:81:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   81 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfTaxels();
+      |                   [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:82:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   82 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfFaces();
+      |                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_from_file.hpp:15[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:3[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_sec.hpp:49:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   49 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return (uint64_t) *timer*1000; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_sec.hpp:55:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   55 |     [01;35m[Kconst[m[K double getTimestampInSec() { return *timer; };
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_from_shm.hpp:17[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:4[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_msec.hpp:43:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   43 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return *timer; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_msec.hpp:49:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   49 |     [01;35m[Kconst[m[K double getTimestampInSec() { return ((double)*timer)/1000; };
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:9[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/tactile_image_builder.hpp:17[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:5[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_abstract.hpp:33:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   33 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_abstract.hpp:34:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   34 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfFaces() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:57:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   57 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() { return S->getNumberOfTaxels(); }
+      |                   [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:58:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   58 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfFaces() { return S->getNumberOfFaces(); }
+      |                   [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:58:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krecording[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   58 |     bool [01;35m[Krecording[m[K = false;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:59:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwas_touching[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   59 |     bool [01;35m[Kwas_touching[m[K = false;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable tactile_image_publisher_curved_gesture[0m
+[100%] Built target tactile_image_publisher_curved_gesture
+-- Install configuration: ""
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/ament_index/resource_index/rosidl_interfaces/uc1_tactile_images
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/msg/ImageArrayLink.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/image_array_link.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__type_support.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__type_support.c
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__description.c
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__functions.c
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__struct.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__functions.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/environment/library_path.sh
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/environment/library_path.dsv
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/libuc1_tactile_images__rosidl_generator_c.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/libuc1_tactile_images__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__traits.hpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__struct.hpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__builder.hpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__type_support.hpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/image_array_link.hpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/dds_fastrtps
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/libuc1_tactile_images__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__type_support.c
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/libuc1_tactile_images__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/libuc1_tactile_images__rosidl_typesupport_c.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__type_support.cpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/include/uc1_tactile_images/uc1_tactile_images/msg/detail/image_array_link__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/libuc1_tactile_images__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/libuc1_tactile_images__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/environment/pythonpath.sh
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/environment/pythonpath.dsv
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images-0.0.0-py3.12.egg-info
+-- Installing: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/uc1_tactile_images_s__rosidl_typesupport_c.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/_uc1_tactile_images_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/_uc1_tactile_images_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/uc1_tactile_images_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/__init__.py
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/uc1_tactile_images_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/msg
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/msg/__init__.py
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/msg/_image_array_link.py
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/msg/_image_array_link_s.c
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/_uc1_tactile_images_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images'...
+Listing '/home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/msg'...
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/uc1_tactile_images_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/uc1_tactile_images_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/python3.12/site-packages/uc1_tactile_images/uc1_tactile_images_s__rosidl_typesupport_c.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/libuc1_tactile_images__rosidl_generator_py.so
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/msg/ImageArrayLink.idl
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/msg/ImageArrayLink.msg
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/uc1_tactile_images/tactile_image_publisher
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/uc1_tactile_images/tactile_image_publisher_hexagon
+-- Installing: /home/lidia/ros2_ws/install/uc1_tactile_images/lib/uc1_tactile_images/tactile_image_publisher_curved_gesture
+-- Set non-toolchain portion of runtime path of "/home/lidia/ros2_ws/install/uc1_tactile_images/lib/uc1_tactile_images/tactile_image_publisher_curved_gesture" to "/home/lidia/PFE/librobotskin/build"
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/stl
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/stl/wrist1.stl
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/stl/shoulder.stl
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/stl/base.stl
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/stl/upperarm.stl
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/stl/forearm.stl
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/stl/wrist2.stl
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/stl/wrist3.stl
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/ply
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/ply/forearm.ply
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/ply/shoulder.ply
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/ply/base.ply
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/ply/wrist3.ply
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/ply/upperarm.ply
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/ply/wrist2.ply
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images//resources/ply/wrist1.ply
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/IDs_UR10_link1_patch2.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/IDs_UR10_link2_patch3.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/IDs_UR10_link1_patch1.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/old
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/old/IDs_UR10_link1_patch2.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/old/IDs_UR10_link2_patch3.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/old/IDs_UR10_link1_patch1.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/old/IDs_UR10_link2_patch1.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/old/IDs_UR10_link2_patch2.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/old/IDs_UR10_link2_patch4_old.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/old/IDs_UR10_link2_patch4.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/old/IDs_UR10_link1_patch4.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/old/IDs_UR10_link1_patch3.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/IDs_UR10_link2_patch1.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/IDs_UR10_link2_patch2.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/IDs_UR10_link2_patch4.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/IDs_UR10_link1_patch4.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/skin_ids/IDs_UR10_link1_patch3.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/example_trt_from_net.m
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/onnx_checker.m
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/interface
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/interface/_coder_googlenet_predict_mex.cu
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/interface/_coder_googlenet_predict_mex.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/interface/_coder_googlenet_predict_api.cu
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/interface/_coder_googlenet_predict_info.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/interface/_coder_googlenet_predict_api.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/interface/_coder_googlenet_predict_info.cpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict_initialize.cu
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-1x1_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-pool_proj_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-1x1_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-3x3_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-1x1_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cpp_mexapi_version.cpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_conv2-3x3_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/predict.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-3x3_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-5x5_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-3x3_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-3x3_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-5x5_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-5x5_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict_mex.sh
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-3x3_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-3x3_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-5x5_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/_clang-format
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-pool_proj_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/DeepLearningNetwork.cu
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-5x5_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-pool_proj_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-pool_proj_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-3x3_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-5x5_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-5x5_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_loss3-classifier_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-pool_proj_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_data_scale.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-5x5_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-3x3_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-pool_proj_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/build.ninja
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/rt_nonfinite.cu
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-1x1_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-5x5_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-1x1_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-1x1_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-3x3_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-5x5_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-5x5_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-1x1_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-5x5_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/build
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/build/glnxa64
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/build/glnxa64/.ninja_log
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/build/glnxa64/buildLog.log
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/build/glnxa64/_coder_googlenet_predict_info.o
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-1x1_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_loss3-classifier_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict_mexutil.cu
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-1x1_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_conv2-3x3_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-3x3_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-1x1_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-5x5_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict_terminate.cu
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict_types.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-5x5_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-3x3_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-1x1_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_conv1-7x7_s2_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/gpu_codegen_info.mat
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-3x3_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_conv2-3x3_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_outputlabels.txt
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-1x1_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-3x3_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict.cu
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-pool_proj_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-pool_proj_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-3x3_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-5x5_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-pool_proj_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict_data.cu
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict_data.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-3x3_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-5x5_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-3x3_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-5x5_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-5x5_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-3x3_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_conv1-7x7_s2_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-3x3_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_conv2-3x3_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-3x3_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-3x3_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-3x3_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-pool_proj_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-5x5_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-1x1_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-5x5_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-5x5_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-pool_proj_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-3x3_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-5x5_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-5x5_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-3x3_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-3x3_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-3x3_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-pool_proj_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-1x1_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/MWCudaDimUtility.hpp
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-3x3_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/html
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/html/report.mldatx
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/predict.cu
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-1x1_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/DeepLearningNetwork.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-5x5_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-5x5_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-5x5_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-5x5_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-5x5_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-5x5_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-1x1_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-pool_proj_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4e-3x3_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-5x5_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-3x3_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_data_offset.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-3x3_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-3x3_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict_initialize.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-3x3_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-pool_proj_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-pool_proj_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-pool_proj_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-3x3_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-pool_proj_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict_mexutil.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-5x5_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4b-5x5_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/rt_nonfinite.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3a-5x5_reduce_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict_terminate.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/rtwtypes.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5b-3x3_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-5x5_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/buildInfo.mat
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_5a-3x3_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-3x3_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4c-1x1_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4a-pool_proj_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-3x3_reduce_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/networkParamsInfo_googlenet0_0.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-5x5_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_4d-5x5_w.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/googlenet_predict_internal_types.h
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/codegen/mex/googlenet_predict/cnn_googlenet0_0_inception_3b-1x1_b.bin
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/HandsNet_handles_finetuned.onnx
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/googlenet_predict.m
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/handsnet_finetuned.onnx
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/models_onnx/HandsNetFcn.m
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/package.xml
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/UR10_link2_patch1.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/UR10_link1_patch3_4.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/hexagon_patch_zwick.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/UR10_link1_patch4.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/BUDAPEST_link2_patches1e3.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/CASE_patch2.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/BUDAPEST_link2_patches1e2_tmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/CASE_patch3.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/BUDAPEST_link2_patches1e3_tmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/UR10_link1_patch2.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/CASE_patch1.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/DEMO_patch_3.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/UR10_link2_patch4.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/CASE_patch4.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/UR10_link2_patch3.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/UR10_link2_patch2.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/UR10_link1_patch1_2.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/UR10_link1_patch1.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/BUDAPEST_link2_patches1e2.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/UR10_link1_patch3.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/UR10_link2_patch4_old.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/DEMO_link2_patches1e3_full.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/curved_gesture_patch.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/DEMO_patch_1.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/BUDAPEST_link2_patches1e3.json.old
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/old/DEMO_link2_patches1e3_full.json.old
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/hexagon_tpu_1_full_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/hexagon_cyskin_full_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/curved_gesture_patch_full_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch1_full_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch4_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch3_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch1_full_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch3_full_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch1.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch4_full_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch3_full_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch4_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch4_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch4_full_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch2_full_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch2_full_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch2_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch3.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch3_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch3_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch2_full_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch1_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch4_full_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch3_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch2_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch1_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch4_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch3.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch2_full_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch2.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch2_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch1_full_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch1_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch3_full_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch2_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch1.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch4.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch4.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch1_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch1_full_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link2_patch2.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch4_full_isomap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/calibration_files/UR10e_SKIN_CALIBRATION_FILES/ur10e_link1_patch3_full_flatmap.json
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/ament_index/resource_index/package_run_dependencies/uc1_tactile_images
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/ament_index/resource_index/parent_prefix_path/uc1_tactile_images
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/environment/path.sh
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/environment/path.dsv
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/local_setup.bash
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/local_setup.sh
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/local_setup.zsh
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/local_setup.dsv
+-- Installing: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/package.dsv
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/ament_index/resource_index/packages/uc1_tactile_images
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/export_uc1_tactile_images__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/export_uc1_tactile_images__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/export_uc1_tactile_images__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/export_uc1_tactile_images__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/export_uc1_tactile_images__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/export_uc1_tactile_images__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/export_uc1_tactile_images__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/uc1_tactile_images__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/uc1_tactile_images__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/uc1_tactile_images__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/uc1_tactile_images__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/uc1_tactile_images__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/uc1_tactile_images__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/uc1_tactile_images__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/uc1_tactile_images__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/export_uc1_tactile_images__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/export_uc1_tactile_images__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/uc1_tactile_imagesConfig.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/cmake/uc1_tactile_imagesConfig-version.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/uc1_tactile_images/share/uc1_tactile_images/package.xml

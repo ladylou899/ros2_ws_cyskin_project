@@ -1,0 +1,27 @@
+[0.036s] Invoking command in '/home/lidia/ros2_ws/src/build/cyskin_acquisition': CMAKE_PREFIX_PATH=/home/lidia/ros2_ws/install/uc1_tactile_images:/opt/ros/jazzy:/home/lidia/ros2_ws/install/cyskin_acquisition:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lidia/ros2_ws/src/build/cyskin_acquisition -- -j8 -l8
+[0.098s] -- OPTIONS: Hardware support ENABLED
+[0.098s] -- OPTIONS: ARM support DISABLED
+[0.098s] -- OPTIONS: ROS support DISABLED
+[0.099s] -- OPTIONS: ROS2 support ENABLED
+[0.099s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.697s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.795s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.835s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.909s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.051s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.053s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.160s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.300s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.477s] -- Configuring done (1.4s)
+[1.502s] -- Generating done (0.0s)
+[1.511s] -- Build files have been written to: /home/lidia/ros2_ws/src/build/cyskin_acquisition
+[1.559s] [ 15%] [32mBuilding CXX object CMakeFiles/cyskin_subscriber.dir/src/cyskin_subscriber.cpp.o[0m
+[1.559s] [ 15%] [32mBuilding CXX object CMakeFiles/cyskin_subscriber.dir/src/subscriber_main.cpp.o[0m
+[1.594s] [ 23%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/updater.cpp.o[0m
+[1.595s] [ 30%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/file_publisher.cpp.o[0m
+[1.597s] [ 38%] [32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/ros_publisher.cpp.o[0m
+[9.932s] [ 46%] [32m[1mLinking CXX executable cyskin_acquisition[0m
+[10.333s] [ 92%] Built target cyskin_acquisition
+[14.196s] [100%] [32m[1mLinking CXX executable cyskin_subscriber[0m
+[14.631s] [100%] Built target cyskin_subscriber

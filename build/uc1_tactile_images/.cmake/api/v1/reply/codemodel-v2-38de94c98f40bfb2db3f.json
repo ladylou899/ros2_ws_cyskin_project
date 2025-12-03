@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-dd09f3e47649ec73d1db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "uc1_tactile_images__py",
+					"jsonFile" : "directory-uc1_tactile_images__py-45860d1630647e774287.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lidia/ros2_ws/build/uc1_tactile_images/uc1_tactile_images__py",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "uc1_tactile_images",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_uc1_tactile_images_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_uc1_tactile_images_egg-a87f62a133b37144c1ec.json",
+					"name" : "ament_cmake_python_build_uc1_tactile_images_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_uc1_tactile_images::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_uc1_tactile_images-d2fe12b61ff685828655.json",
+					"name" : "ament_cmake_python_copy_uc1_tactile_images",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactile_image_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactile_image_publisher-59c93450f0e2ba72dda3.json",
+					"name" : "tactile_image_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactile_image_publisher_curved_gesture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactile_image_publisher_curved_gesture-fa290120ad44e61a6a7f.json",
+					"name" : "tactile_image_publisher_curved_gesture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactile_image_publisher_hexagon::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactile_image_publisher_hexagon-a90a931cc6958bf32d7a.json",
+					"name" : "tactile_image_publisher_hexagon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images-749dd2d2d580f165ba50.json",
+					"name" : "uc1_tactile_images",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images__cpp-5638178ba259b90e24ab.json",
+					"name" : "uc1_tactile_images__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uc1_tactile_images__py::@e108f447f413ecf89748",
+					"jsonFile" : "target-uc1_tactile_images__py-81bb065f6c8d11812626.json",
+					"name" : "uc1_tactile_images__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images__rosidl_generator_c-2ee56e4a0d0bfda7eae8.json",
+					"name" : "uc1_tactile_images__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images__rosidl_generator_py-6168787aa85ac049cd2c.json",
+					"name" : "uc1_tactile_images__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images__rosidl_generator_type_description-7ba731b70e47f3849b79.json",
+					"name" : "uc1_tactile_images__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images__rosidl_typesupport_c-f29f6ab53fec6b9695a6.json",
+					"name" : "uc1_tactile_images__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images__rosidl_typesupport_cpp-2533300e4effbef965b1.json",
+					"name" : "uc1_tactile_images__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images__rosidl_typesupport_fastrtps_c-584ac99e7c49ed30d91f.json",
+					"name" : "uc1_tactile_images__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images__rosidl_typesupport_fastrtps_cpp-8bdb87987eb1d530a1f5.json",
+					"name" : "uc1_tactile_images__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images__rosidl_typesupport_introspection_c-1646fcbc6f2047794731.json",
+					"name" : "uc1_tactile_images__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images__rosidl_typesupport_introspection_cpp-f03266d4508144529738.json",
+					"name" : "uc1_tactile_images__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images_s__rosidl_typesupport_c-c1c13e4c5e450e433539.json",
+					"name" : "uc1_tactile_images_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images_s__rosidl_typesupport_fastrtps_c-67f70fa9fb2d9365e8e5.json",
+					"name" : "uc1_tactile_images_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images_s__rosidl_typesupport_introspection_c-5622efa290cdc3cfa49f.json",
+					"name" : "uc1_tactile_images_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uc1_tactile_images_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uc1_tactile_images_uninstall-4ce3cdd6c42b9e4078bd.json",
+					"name" : "uc1_tactile_images_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-32796ed845775d710023.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lidia/ros2_ws/build/uc1_tactile_images",
+		"source" : "/home/lidia/ros2_ws/src/uc1_tactile_images"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

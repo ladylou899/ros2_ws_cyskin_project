@@ -1,0 +1,20 @@
+[ 23%] Built target cyskin_subscriber
+[100%] Built target cyskin_acquisition
+-- Install configuration: ""
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_acquisition
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_subscriber
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/ament_index/resource_index/package_run_dependencies/cyskin_acquisition
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/ament_index/resource_index/parent_prefix_path/cyskin_acquisition
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/path.sh
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/environment/path.dsv
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.bash
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.sh
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.zsh
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.dsv
+-- Installing: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.dsv
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/ament_index/resource_index/packages/cyskin_acquisition
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/cmake/cyskin_acquisitionConfig.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/cmake/cyskin_acquisitionConfig-version.cmake
+-- Up-to-date: /home/lidia/ros2_ws/install/cyskin_acquisition/share/cyskin_acquisition/package.xml

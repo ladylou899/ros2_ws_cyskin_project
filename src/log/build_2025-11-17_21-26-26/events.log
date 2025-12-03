@@ -1,0 +1,250 @@
+[0.000000] (-) TimerEvent: {}
+[0.001638] (cyskin_acquisition) JobQueued: {'identifier': 'cyskin_acquisition', 'dependencies': OrderedDict()}
+[0.001758] (cyskin_acquisition) JobStarted: {'identifier': 'cyskin_acquisition'}
+[0.016039] (cyskin_acquisition) JobProgress: {'identifier': 'cyskin_acquisition', 'progress': 'cmake'}
+[0.017074] (cyskin_acquisition) Command: {'cmd': ['/usr/bin/cmake', '/home/lidia/ros2_ws/src/cyskin_acquisition', '-DCMAKE_INSTALL_PREFIX=/home/lidia/ros2_ws/src/install/cyskin_acquisition'], 'cwd': '/home/lidia/ros2_ws/src/build/cyskin_acquisition', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lidia', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/lidia/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lidia', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.105.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/211/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/lidia/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/211/usr/share/code/code', 'MANAGERPID': '1990', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2262', 'BUNDLED_DEBUGPY_PATH': '/home/lidia/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3534', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lidia', 'JOURNAL_STREAM': '9:21803', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'lidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lidia/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts:/home/lidia/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/lidia-IdeaPad-3-15IML05:@/tmp/.ICE-unix/2218,unix/lidia-IdeaPad-3-15IML05:/tmp/.ICE-unix/2218', 'GTK_EXE_PREFIX': '/snap/code/211/usr', 'INVOCATION_ID': '0b48c5cecaef4997aef82e814618781c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/211/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lidia/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b194b2234ee9d7c4.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/lidia/.config/Code/User/workspaceStorage/22cfef04d475c2ad5110e59ead3372f5/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/lidia/snap/code/211/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B2Y4F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-80c7248612.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/lidia/snap/code/211/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lidia/ros2_ws/src/build/cyskin_acquisition', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/lidia/snap/code/211/.local/share:/home/lidia/snap/code/211:/snap/code/211/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099567] (-) TimerEvent: {}
+[0.199913] (-) TimerEvent: {}
+[0.205007] (cyskin_acquisition) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300033] (-) TimerEvent: {}
+[0.347492] (cyskin_acquisition) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.384885] (cyskin_acquisition) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400168] (-) TimerEvent: {}
+[0.500680] (-) TimerEvent: {}
+[0.601435] (-) TimerEvent: {}
+[0.702172] (-) TimerEvent: {}
+[0.712951] (cyskin_acquisition) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.756893] (cyskin_acquisition) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.758285] (cyskin_acquisition) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.761974] (cyskin_acquisition) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.802363] (-) TimerEvent: {}
+[0.811860] (cyskin_acquisition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902523] (-) TimerEvent: {}
+[1.003193] (-) TimerEvent: {}
+[1.103944] (-) TimerEvent: {}
+[1.204740] (-) TimerEvent: {}
+[1.276389] (cyskin_acquisition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.304920] (-) TimerEvent: {}
+[1.316900] (cyskin_acquisition) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.317803] (cyskin_acquisition) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.319319] (cyskin_acquisition) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.321996] (cyskin_acquisition) StdoutLine: {'line': b'-- OPTIONS: Hardware support ENABLED\n'}
+[1.322535] (cyskin_acquisition) StdoutLine: {'line': b'-- OPTIONS: ARM support DISABLED\n'}
+[1.322910] (cyskin_acquisition) StdoutLine: {'line': b'-- OPTIONS: ROS support DISABLED\n'}
+[1.323314] (cyskin_acquisition) StdoutLine: {'line': b'-- OPTIONS: ROS2 support ENABLED\n'}
+[1.344626] (cyskin_acquisition) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.405119] (-) TimerEvent: {}
+[1.505614] (-) TimerEvent: {}
+[1.606181] (-) TimerEvent: {}
+[1.706786] (-) TimerEvent: {}
+[1.807656] (-) TimerEvent: {}
+[1.908385] (-) TimerEvent: {}
+[1.980872] (cyskin_acquisition) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.008517] (-) TimerEvent: {}
+[2.108923] (-) TimerEvent: {}
+[2.209325] (-) TimerEvent: {}
+[2.309718] (-) TimerEvent: {}
+[2.334315] (cyskin_acquisition) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.409856] (-) TimerEvent: {}
+[2.493688] (cyskin_acquisition) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.510027] (-) TimerEvent: {}
+[2.547519] (cyskin_acquisition) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.607197] (cyskin_acquisition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.610140] (-) TimerEvent: {}
+[2.684302] (cyskin_acquisition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.710281] (-) TimerEvent: {}
+[2.810808] (-) TimerEvent: {}
+[2.911543] (-) TimerEvent: {}
+[3.012234] (-) TimerEvent: {}
+[3.103820] (cyskin_acquisition) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.111527] (cyskin_acquisition) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.112290] (-) TimerEvent: {}
+[3.212592] (-) TimerEvent: {}
+[3.312988] (-) TimerEvent: {}
+[3.333144] (cyskin_acquisition) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.413183] (-) TimerEvent: {}
+[3.444503] (cyskin_acquisition) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.513373] (-) TimerEvent: {}
+[3.568013] (cyskin_acquisition) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.613542] (-) TimerEvent: {}
+[3.714146] (-) TimerEvent: {}
+[3.814682] (-) TimerEvent: {}
+[3.913778] (cyskin_acquisition) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[3.914777] (-) TimerEvent: {}
+[4.015151] (-) TimerEvent: {}
+[4.115696] (-) TimerEvent: {}
+[4.216312] (-) TimerEvent: {}
+[4.310720] (cyskin_acquisition) StdoutLine: {'line': b'-- Configuring done (4.3s)\n'}
+[4.316444] (-) TimerEvent: {}
+[4.336343] (cyskin_acquisition) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.350821] (cyskin_acquisition) StdoutLine: {'line': b'-- Build files have been written to: /home/lidia/ros2_ws/src/build/cyskin_acquisition\n'}
+[4.372311] (cyskin_acquisition) CommandEnded: {'returncode': 0}
+[4.373681] (cyskin_acquisition) JobProgress: {'identifier': 'cyskin_acquisition', 'progress': 'build'}
+[4.376099] (cyskin_acquisition) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lidia/ros2_ws/src/build/cyskin_acquisition', '--', '-j8', '-l8'], 'cwd': '/home/lidia/ros2_ws/src/build/cyskin_acquisition', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lidia', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/lidia/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lidia', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.105.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/211/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/lidia/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/211/usr/share/code/code', 'MANAGERPID': '1990', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2262', 'BUNDLED_DEBUGPY_PATH': '/home/lidia/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3534', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lidia', 'JOURNAL_STREAM': '9:21803', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'lidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lidia/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts:/home/lidia/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/lidia-IdeaPad-3-15IML05:@/tmp/.ICE-unix/2218,unix/lidia-IdeaPad-3-15IML05:/tmp/.ICE-unix/2218', 'GTK_EXE_PREFIX': '/snap/code/211/usr', 'INVOCATION_ID': '0b48c5cecaef4997aef82e814618781c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/211/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lidia/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b194b2234ee9d7c4.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/lidia/.config/Code/User/workspaceStorage/22cfef04d475c2ad5110e59ead3372f5/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/lidia/snap/code/211/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B2Y4F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-80c7248612.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/lidia/snap/code/211/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lidia/ros2_ws/src/build/cyskin_acquisition', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/lidia/snap/code/211/.local/share:/home/lidia/snap/code/211:/snap/code/211/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.416572] (-) TimerEvent: {}
+[4.520449] (-) TimerEvent: {}
+[4.531453] (cyskin_acquisition) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/bash_publisher.cpp.o\x1b[0m\n'}
+[4.536626] (cyskin_acquisition) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/file_publisher.cpp.o\x1b[0m\n'}
+[4.540717] (cyskin_acquisition) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/calibrator.cpp.o\x1b[0m\n'}
+[4.541527] (cyskin_acquisition) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/main.cpp.o\x1b[0m\n'}
+[4.553353] (cyskin_acquisition) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/ros_publisher.cpp.o\x1b[0m\n'}
+[4.572960] (cyskin_acquisition) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/updater.cpp.o\x1b[0m\n'}
+[4.573792] (cyskin_acquisition) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/updater_fake.cpp.o\x1b[0m\n'}
+[4.582294] (cyskin_acquisition) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/shared_memory_publisher.cpp.o\x1b[0m\n'}
+[4.622203] (-) TimerEvent: {}
+[4.723475] (-) TimerEvent: {}
+[4.823989] (-) TimerEvent: {}
+[4.924754] (-) TimerEvent: {}
+[5.027166] (-) TimerEvent: {}
+[5.127732] (-) TimerEvent: {}
+[5.228781] (-) TimerEvent: {}
+[5.331403] (-) TimerEvent: {}
+[5.437261] (-) TimerEvent: {}
+[5.537738] (-) TimerEvent: {}
+[5.638206] (-) TimerEvent: {}
+[5.738732] (-) TimerEvent: {}
+[5.844220] (-) TimerEvent: {}
+[5.944681] (-) TimerEvent: {}
+[6.045141] (-) TimerEvent: {}
+[6.151138] (-) TimerEvent: {}
+[6.251605] (-) TimerEvent: {}
+[6.352150] (-) TimerEvent: {}
+[6.455624] (-) TimerEvent: {}
+[6.559223] (-) TimerEvent: {}
+[6.659804] (-) TimerEvent: {}
+[6.760346] (-) TimerEvent: {}
+[6.861564] (-) TimerEvent: {}
+[6.963759] (-) TimerEvent: {}
+[7.064244] (-) TimerEvent: {}
+[7.164736] (-) TimerEvent: {}
+[7.265225] (-) TimerEvent: {}
+[7.290233] (cyskin_acquisition) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/cyskin_acquisition.dir/src/updater_interface.cpp.o\x1b[0m\n'}
+[7.366140] (-) TimerEvent: {}
+[7.466714] (-) TimerEvent: {}
+[7.570365] (-) TimerEvent: {}
+[7.670927] (-) TimerEvent: {}
+[7.775612] (-) TimerEvent: {}
+[7.880144] (-) TimerEvent: {}
+[7.980593] (-) TimerEvent: {}
+[8.081095] (-) TimerEvent: {}
+[8.181677] (-) TimerEvent: {}
+[8.282244] (-) TimerEvent: {}
+[8.383134] (-) TimerEvent: {}
+[8.483701] (-) TimerEvent: {}
+[8.586180] (-) TimerEvent: {}
+[8.687135] (-) TimerEvent: {}
+[8.787560] (-) TimerEvent: {}
+[8.891599] (-) TimerEvent: {}
+[8.992024] (-) TimerEvent: {}
+[9.093576] (-) TimerEvent: {}
+[9.194407] (-) TimerEvent: {}
+[9.295079] (-) TimerEvent: {}
+[9.395583] (-) TimerEvent: {}
+[9.496034] (-) TimerEvent: {}
+[9.596494] (-) TimerEvent: {}
+[9.696940] (-) TimerEvent: {}
+[9.797407] (-) TimerEvent: {}
+[9.897864] (-) TimerEvent: {}
+[9.998328] (-) TimerEvent: {}
+[10.098782] (-) TimerEvent: {}
+[10.199236] (-) TimerEvent: {}
+[10.299679] (-) TimerEvent: {}
+[10.400156] (-) TimerEvent: {}
+[10.500623] (-) TimerEvent: {}
+[10.601083] (-) TimerEvent: {}
+[10.701526] (-) TimerEvent: {}
+[10.801976] (-) TimerEvent: {}
+[10.902443] (-) TimerEvent: {}
+[11.002891] (-) TimerEvent: {}
+[11.103359] (-) TimerEvent: {}
+[11.203805] (-) TimerEvent: {}
+[11.304265] (-) TimerEvent: {}
+[11.404703] (-) TimerEvent: {}
+[11.505128] (-) TimerEvent: {}
+[11.605549] (-) TimerEvent: {}
+[11.705976] (-) TimerEvent: {}
+[11.806455] (-) TimerEvent: {}
+[11.906801] (-) TimerEvent: {}
+[12.007125] (-) TimerEvent: {}
+[12.107461] (-) TimerEvent: {}
+[12.207808] (-) TimerEvent: {}
+[12.308151] (-) TimerEvent: {}
+[12.408487] (-) TimerEvent: {}
+[12.508827] (-) TimerEvent: {}
+[12.609140] (-) TimerEvent: {}
+[12.709485] (-) TimerEvent: {}
+[12.809821] (-) TimerEvent: {}
+[12.910128] (-) TimerEvent: {}
+[13.010467] (-) TimerEvent: {}
+[13.110808] (-) TimerEvent: {}
+[13.211150] (-) TimerEvent: {}
+[13.311516] (-) TimerEvent: {}
+[13.411888] (-) TimerEvent: {}
+[13.512245] (-) TimerEvent: {}
+[13.612579] (-) TimerEvent: {}
+[13.712951] (-) TimerEvent: {}
+[13.813309] (-) TimerEvent: {}
+[13.913646] (-) TimerEvent: {}
+[14.013988] (-) TimerEvent: {}
+[14.114337] (-) TimerEvent: {}
+[14.214685] (-) TimerEvent: {}
+[14.315072] (-) TimerEvent: {}
+[14.415415] (-) TimerEvent: {}
+[14.516133] (-) TimerEvent: {}
+[14.617136] (-) TimerEvent: {}
+[14.717609] (-) TimerEvent: {}
+[14.817964] (-) TimerEvent: {}
+[14.918322] (-) TimerEvent: {}
+[15.018700] (-) TimerEvent: {}
+[15.119064] (-) TimerEvent: {}
+[15.219408] (-) TimerEvent: {}
+[15.319743] (-) TimerEvent: {}
+[15.420088] (-) TimerEvent: {}
+[15.520460] (-) TimerEvent: {}
+[15.620802] (-) TimerEvent: {}
+[15.721130] (-) TimerEvent: {}
+[15.821480] (-) TimerEvent: {}
+[15.921921] (-) TimerEvent: {}
+[16.022273] (-) TimerEvent: {}
+[16.122606] (-) TimerEvent: {}
+[16.222979] (-) TimerEvent: {}
+[16.323328] (-) TimerEvent: {}
+[16.423665] (-) TimerEvent: {}
+[16.523999] (-) TimerEvent: {}
+[16.624352] (-) TimerEvent: {}
+[16.724678] (-) TimerEvent: {}
+[16.825025] (-) TimerEvent: {}
+[16.925486] (-) TimerEvent: {}
+[17.025955] (-) TimerEvent: {}
+[17.076477] (cyskin_acquisition) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cyskin_acquisition\x1b[0m\n'}
+[17.126094] (-) TimerEvent: {}
+[17.226458] (-) TimerEvent: {}
+[17.326877] (-) TimerEvent: {}
+[17.427347] (-) TimerEvent: {}
+[17.527794] (-) TimerEvent: {}
+[17.531641] (cyskin_acquisition) StdoutLine: {'line': b'[100%] Built target cyskin_acquisition\n'}
+[17.558123] (cyskin_acquisition) CommandEnded: {'returncode': 0}
+[17.559284] (cyskin_acquisition) JobProgress: {'identifier': 'cyskin_acquisition', 'progress': 'install'}
+[17.580421] (cyskin_acquisition) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lidia/ros2_ws/src/build/cyskin_acquisition'], 'cwd': '/home/lidia/ros2_ws/src/build/cyskin_acquisition', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lidia', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/lidia/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lidia', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.105.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/211/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/lidia/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/211/usr/share/code/code', 'MANAGERPID': '1990', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2262', 'BUNDLED_DEBUGPY_PATH': '/home/lidia/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3534', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lidia', 'JOURNAL_STREAM': '9:21803', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'lidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lidia/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts:/home/lidia/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/lidia-IdeaPad-3-15IML05:@/tmp/.ICE-unix/2218,unix/lidia-IdeaPad-3-15IML05:/tmp/.ICE-unix/2218', 'GTK_EXE_PREFIX': '/snap/code/211/usr', 'INVOCATION_ID': '0b48c5cecaef4997aef82e814618781c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/211/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lidia/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b194b2234ee9d7c4.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/lidia/.config/Code/User/workspaceStorage/22cfef04d475c2ad5110e59ead3372f5/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/lidia/snap/code/211/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B2Y4F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-80c7248612.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/lidia/snap/code/211/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lidia/ros2_ws/src/build/cyskin_acquisition', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/lidia/snap/code/211/.local/share:/home/lidia/snap/code/211:/snap/code/211/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[17.594972] (cyskin_acquisition) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.595561] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_acquisition\n'}
+[17.599039] (cyskin_acquisition) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lidia/ros2_ws/src/install/cyskin_acquisition/lib/cyskin_acquisition/cyskin_acquisition" to ""\n'}
+[17.599526] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/ament_index/resource_index/package_run_dependencies/cyskin_acquisition\n'}
+[17.599896] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/ament_index/resource_index/parent_prefix_path/cyskin_acquisition\n'}
+[17.600319] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/environment/ament_prefix_path.sh\n'}
+[17.600749] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/environment/ament_prefix_path.dsv\n'}
+[17.601088] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/environment/path.sh\n'}
+[17.601410] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/environment/path.dsv\n'}
+[17.601796] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.bash\n'}
+[17.602134] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.sh\n'}
+[17.602421] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.zsh\n'}
+[17.602708] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/local_setup.dsv\n'}
+[17.603001] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/package.dsv\n'}
+[17.603450] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/ament_index/resource_index/packages/cyskin_acquisition\n'}
+[17.603829] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/cmake/cyskin_acquisitionConfig.cmake\n'}
+[17.604142] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/cmake/cyskin_acquisitionConfig-version.cmake\n'}
+[17.604459] (cyskin_acquisition) StdoutLine: {'line': b'-- Installing: /home/lidia/ros2_ws/src/install/cyskin_acquisition/share/cyskin_acquisition/package.xml\n'}
+[17.608027] (cyskin_acquisition) CommandEnded: {'returncode': 0}
+[17.627941] (-) TimerEvent: {}
+[17.643454] (cyskin_acquisition) JobEnded: {'identifier': 'cyskin_acquisition', 'rc': 0}
+[17.644884] (-) EventReactorShutdown: {}

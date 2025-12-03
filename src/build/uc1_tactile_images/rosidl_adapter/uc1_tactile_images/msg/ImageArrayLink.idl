@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from uc1_tactile_images/msg/ImageArrayLink.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module uc1_tactile_images {
+  module msg {
+    typedef sensor_msgs::msg::Image sensor_msgs__msg__Image;
+    typedef sensor_msgs__msg__Image sensor_msgs__msg__Image__4[4];
+    struct ImageArrayLink {
+      sensor_msgs__msg__Image__4 images;
+    };
+  };
+};

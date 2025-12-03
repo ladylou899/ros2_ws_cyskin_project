@@ -1,0 +1,63 @@
+# CompilerName=gcc
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root/build/glnxa64
+matlabdir = /home/francesco/Documents/MATLAB
+startdir = /home/francesco/Documents/ROS_WORKSPACES/tactile_processing_ws/src/tactile_image_publisher_ros2/models_onnx
+
+# Toolchain information
+cc = gcc
+cxx = /usr/bin/g++
+linker = gcc
+linkerxx = /usr/bin/g++
+
+cflags =  -fexceptions -fPIC -fno-omit-frame-pointer -pthread -fwrapv -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -DNDEBUG -fvisibility=hidden -std=c99 -I "$root" -I "$startdir" -I "$matlabdir/sys/cuda/glnxa64/cudnn/include" -I "$matlabdir/sys/cuda/glnxa64/tensorrt/include" -I "$matlabdir/derived/glnxa64/src/include/layer" -I "$matlabdir/derived/glnxa64/src/include/cudnn" -I "$matlabdir/derived/glnxa64/src/include/tensorrt" -I "$matlabdir/toolbox/gpucoder/src/gpucoderrt/export/include/gpucoderrt" -I "$matlabdir/sys/cuda/glnxa64/cuda/include" -I "$root/interface" -I "$matlabdir/extern/include" -I "." -DMW_CUDA_ARCH=860 -DMW_GPU_MEMORY_MANAGER -DMODEL=googlenet_predict_mex -DMW_NEEDS_VERSION_H -c 
+
+cxxflags =  -fexceptions -fPIC -fno-omit-frame-pointer -pthread -fwrapv -D_GNU_SOURCE -DMATLAB_MEX_FILE  -O2 -DNDEBUG -fvisibility=hidden -fno-gnu-unique -std=c++11 -I "$root" -I "$startdir" -I "$matlabdir/sys/cuda/glnxa64/cudnn/include" -I "$matlabdir/sys/cuda/glnxa64/tensorrt/include" -I "$matlabdir/derived/glnxa64/src/include/layer" -I "$matlabdir/derived/glnxa64/src/include/cudnn" -I "$matlabdir/derived/glnxa64/src/include/tensorrt" -I "$matlabdir/toolbox/gpucoder/src/gpucoderrt/export/include/gpucoderrt" -I "$matlabdir/sys/cuda/glnxa64/cuda/include" -I "$root/interface" -I "$matlabdir/extern/include" -I "." -DMW_CUDA_ARCH=860 -DMW_GPU_MEMORY_MANAGER -DMODEL=googlenet_predict_mex -DMW_NEEDS_VERSION_H -c 
+
+ldflags =  -Xlinker --no-undefined  -shared -lstdc++ -Xlinker --as-needed -Xlinker -rpath-link,$matlabdir/bin/glnxa64 -L"$matlabdir/bin/glnxa64" -Xlinker -rpath-link,$matlabdir/extern/bin/glnxa64 -L"$matlabdir/extern/bin/glnxa64" -lMatlabDataArray -lmx -lmex -lm -lmat  -Xlinker -Bsymbolic -o googlenet_predict_mex.mexa64 -Xlinker --exclude-libs,ALL -L"$matlabdir/bin/glnxa64" -L"$matlabdir/sys/cuda/glnxa64/cuda/lib64" -l:libcudnn.so.8 -l:libnvinfer.so.8 -l:libcudart.so.12 -lmwshared_layers -lmwcudnn_layers -lmwtensorrt_layers -lmwgpucoderrt -lemlrt -lcovrt -lut -lmwmathutil -Xlinker -rpath,$matlabdir/bin/glnxa64 -arch sm_86 -I"$matlabdir/sys/cuda/glnxa64/cuda/include" -l:libcudart.so.12 -l:libcublas.so.12 -l:libcusolver.so.11 -l:libcufft.so.11 -l:libcurand.so.10 -l:libcusparse.so.12 -Xnvlink -w  -Wno-deprecated-gpu-targets
+
+linkobjs = 
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in -o $out
+
+rule cxx
+    command = $cxx $cxxflags $in -o $out
+
+rule link
+    command = $linker $in $linkobjs $ldflags
+
+rule linkxx
+    command = $linkerxx $in $linkobjs $ldflags
+
+cudac = nvcc
+linkercuda = nvcc
+
+cudaflags =  -rdc=true -Wno-deprecated-gpu-targets -Xcompiler -fPIC,-fexceptions,-fno-omit-frame-pointer,-pthread -Xcudafe "--display_error_number --diag_suppress=2381 --diag_suppress=unsigned_compare_with_zero --diag_suppress=useless_type_qualifier_on_return_type" -D_GNU_SOURCE -DMATLAB_MEX_FILE -noprof -ldir "$matlabdir/bin/glnxa64" -Xcompiler -fvisibility=hidden -std=c++11 -I "$root" -I "$startdir" -I "$matlabdir/sys/cuda/glnxa64/cudnn/include" -I "$matlabdir/sys/cuda/glnxa64/tensorrt/include" -I "$matlabdir/derived/glnxa64/src/include/layer" -I "$matlabdir/derived/glnxa64/src/include/cudnn" -I "$matlabdir/derived/glnxa64/src/include/tensorrt" -I "$matlabdir/toolbox/gpucoder/src/gpucoderrt/export/include/gpucoderrt" -I "$matlabdir/sys/cuda/glnxa64/cuda/include" -I "$root/interface" -I "$matlabdir/extern/include" -I "." -DMW_CUDA_ARCH=860 -DMW_GPU_MEMORY_MANAGER -DMODEL=googlenet_predict_mex -DMW_NEEDS_VERSION_H -c -std=c++11 -Wno-deprecated-declarations -arch sm_86 -I "$matlabdir/simulink/include" -I "$matlabdir/toolbox/shared/simtargets"
+rule cudac
+    command = $cudac $cudaflags $in -o $out
+
+rule linkcuda
+    command = $linkercuda $in $linkobjs $ldflags
+
+# Build
+build $builddir/googlenet_predict_data.o : cudac $root/googlenet_predict_data.cu
+build $builddir/rt_nonfinite.o : cudac $root/rt_nonfinite.cu
+build $builddir/googlenet_predict_initialize.o : cudac $root/googlenet_predict_initialize.cu
+build $builddir/googlenet_predict_terminate.o : cudac $root/googlenet_predict_terminate.cu
+build $builddir/googlenet_predict.o : cudac $root/googlenet_predict.cu
+build $builddir/DeepLearningNetwork.o : cudac $root/DeepLearningNetwork.cu
+build $builddir/predict.o : cudac $root/predict.cu
+build $builddir/_coder_googlenet_predict_api.o : cudac $root/interface/_coder_googlenet_predict_api.cu
+build $builddir/_coder_googlenet_predict_mex.o : cudac $root/interface/_coder_googlenet_predict_mex.cu
+build $builddir/googlenet_predict_mexutil.o : cudac $root/googlenet_predict_mexutil.cu
+build $builddir/_coder_googlenet_predict_info.o : cxx $root/interface/_coder_googlenet_predict_info.cpp
+build $builddir/cpp_mexapi_version.o : cudac $root/cpp_mexapi_version.cpp
+
+# Link
+build $root/googlenet_predict_mex.mexa64 : linkcuda $builddir/googlenet_predict_data.o $builddir/rt_nonfinite.o $builddir/googlenet_predict_initialize.o $builddir/googlenet_predict_terminate.o $builddir/googlenet_predict.o $builddir/DeepLearningNetwork.o $builddir/predict.o $builddir/_coder_googlenet_predict_api.o $builddir/_coder_googlenet_predict_mex.o $builddir/googlenet_predict_mexutil.o $builddir/_coder_googlenet_predict_info.o $builddir/cpp_mexapi_version.o 

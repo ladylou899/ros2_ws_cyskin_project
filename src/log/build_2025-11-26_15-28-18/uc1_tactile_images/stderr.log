@@ -1,0 +1,410 @@
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:27 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:109 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:139 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:169 (rosidl_target_interfaces)
+
+[0m
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:8[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:2[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:91:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   91 |         [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() { return n_taxels; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:92:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   92 |         [01;35m[Kconst[m[K uint32_t getNumberOfFaces() { return n_faces; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:94:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   94 |         [01;35m[Kconst[m[K uint32_t getTaxelStartIndex() { return taxel_start_index; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:95:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   95 |         [01;35m[Kconst[m[K uint32_t getFacesStartIndex() { return faces_start_index; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:100:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  100 |         [01;35m[Kconst[m[K bool isTfProvided() { return is_tf_provided; };
+      |         [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/taxel_interface.hpp:7[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/taxel.hpp:7[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:9[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:[m[K In member function ‘[01m[Kvirtual float rsl::TaxelResponseModel::[01;32m[KcomputePressureFromRaw[m[K(uint32_t)[m[K’:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:16:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktaxel_response[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |         virtual float computePressureFromRaw( [01;35m[Kuint32_t taxel_response[m[K ) { return -1; };
+      |                                               [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:[m[K In member function ‘[01m[Kvirtual float rsl::TaxelResponseModel::[01;32m[KcomputeForceFromRaw[m[K(uint32_t)[m[K’:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:17:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktaxel_response[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   17 |         virtual float computeForceFromRaw( [01;35m[Kuint32_t taxel_response[m[K ) { return -1; };
+      |                                            [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:8[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisher.cpp:2[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:91:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   91 |         [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() { return n_taxels; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:92:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   92 |         [01;35m[Kconst[m[K uint32_t getNumberOfFaces() { return n_faces; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:94:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   94 |         [01;35m[Kconst[m[K uint32_t getTaxelStartIndex() { return taxel_start_index; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:95:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   95 |         [01;35m[Kconst[m[K uint32_t getFacesStartIndex() { return faces_start_index; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:100:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  100 |         [01;35m[Kconst[m[K bool isTfProvided() { return is_tf_provided; };
+      |         [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:8[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherHexagon.cpp:2[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:91:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   91 |         [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() { return n_taxels; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:92:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   92 |         [01;35m[Kconst[m[K uint32_t getNumberOfFaces() { return n_faces; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:94:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   94 |         [01;35m[Kconst[m[K uint32_t getTaxelStartIndex() { return taxel_start_index; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:95:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   95 |         [01;35m[Kconst[m[K uint32_t getFacesStartIndex() { return faces_start_index; };
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_patch.hpp:100:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  100 |         [01;35m[Kconst[m[K bool isTfProvided() { return is_tf_provided; };
+      |         [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/taxel_interface.hpp:7[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/taxel.hpp:7[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:9[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:[m[K In member function ‘[01m[Kvirtual float rsl::TaxelResponseModel::[01;32m[KcomputePressureFromRaw[m[K(uint32_t)[m[K’:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:16:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktaxel_response[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |         virtual float computePressureFromRaw( [01;35m[Kuint32_t taxel_response[m[K ) { return -1; };
+      |                                               [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:[m[K In member function ‘[01m[Kvirtual float rsl::TaxelResponseModel::[01;32m[KcomputeForceFromRaw[m[K(uint32_t)[m[K’:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:17:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktaxel_response[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   17 |         virtual float computeForceFromRaw( [01;35m[Kuint32_t taxel_response[m[K ) { return -1; };
+      |                                            [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/taxel_interface.hpp:7[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/taxel.hpp:7[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:9[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:[m[K In member function ‘[01m[Kvirtual float rsl::TaxelResponseModel::[01;32m[KcomputePressureFromRaw[m[K(uint32_t)[m[K’:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:16:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktaxel_response[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |         virtual float computePressureFromRaw( [01;35m[Kuint32_t taxel_response[m[K ) { return -1; };
+      |                                               [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:[m[K In member function ‘[01m[Kvirtual float rsl::TaxelResponseModel::[01;32m[KcomputeForceFromRaw[m[K(uint32_t)[m[K’:
+[01m[K/home/lidia/PFE/librobotskin/include/taxel_response_model.hpp:17:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktaxel_response[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   17 |         virtual float computeForceFromRaw( [01;35m[Kuint32_t taxel_response[m[K ) { return -1; };
+      |                                            [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:10[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:[m[K At global scope:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:72:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   72 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:78:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   78 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfFaces() = 0;
+      |             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:10[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:[m[K At global scope:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:72:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   72 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:78:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   78 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfFaces() = 0;
+      |             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:10[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:[m[K At global scope:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:72:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   72 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:78:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   78 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfFaces() = 0;
+      |             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:9[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:19[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:143[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp.hpp:23:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   23 |     virtual [01;35m[Kconst[m[K uint64_t getTimestampInMSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp.hpp:29:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   29 |     virtual [01;35m[Kconst[m[K double getTimestampInSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:41:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   41 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start_time).count(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:47:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   47 |     [01;35m[Kconst[m[K double getTimestampInSec() { return double(getTimestampInMSec()) / 1000; };
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:20[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external.hpp:28:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   28 |     virtual [01;35m[Kconst[m[K uint64_t getTimestampInMSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external.hpp:34:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   34 |     virtual [01;35m[Kconst[m[K double getTimestampInSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:177:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  177 |     [01;35m[Kconst[m[K uint32_t getNoiseThreshold() { return noise_threshold; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:183:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  183 |     [01;35m[Kconst[m[K uint32_t getActivationThreshold() { return activation_threshold; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:189:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  189 |     [01;35m[Kconst[m[K uint64_t getNumberOfSamples() { return number_of_samples; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:195:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  195 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return timestamp->getTimestampInMSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:201:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  201 |     [01;35m[Kconst[m[K double getTimestampInSec() { return timestamp->getTimestampInSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:207:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  207 |     [01;35m[Kconst[m[K uint64_t getLocalTimeElapsedInMSec() { return local_timestamp->getTimestampInMSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:213:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  213 |     [01;35m[Kconst[m[K double getLocalTimeElapsedInSec() { return local_timestamp->getTimestampInSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:219:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  219 |     [01;35m[Kconst[m[K AcquisitionType getAcquisitionType() { return acquisition_type; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:81:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   81 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfTaxels();
+      |                   [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:82:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   82 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfFaces();
+      |                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_from_file.hpp:15[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:3[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_sec.hpp:49:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   49 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return (uint64_t) *timer*1000; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_sec.hpp:55:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   55 |     [01;35m[Kconst[m[K double getTimestampInSec() { return *timer; };
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:9[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:19[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:143[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp.hpp:23:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   23 |     virtual [01;35m[Kconst[m[K uint64_t getTimestampInMSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp.hpp:29:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   29 |     virtual [01;35m[Kconst[m[K double getTimestampInSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:41:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   41 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start_time).count(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:47:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   47 |     [01;35m[Kconst[m[K double getTimestampInSec() { return double(getTimestampInMSec()) / 1000; };
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:20[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external.hpp:28:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   28 |     virtual [01;35m[Kconst[m[K uint64_t getTimestampInMSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external.hpp:34:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   34 |     virtual [01;35m[Kconst[m[K double getTimestampInSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_from_shm.hpp:17[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:4[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_msec.hpp:43:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   43 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return *timer; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_msec.hpp:49:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   49 |     [01;35m[Kconst[m[K double getTimestampInSec() { return ((double)*timer)/1000; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:177:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  177 |     [01;35m[Kconst[m[K uint32_t getNoiseThreshold() { return noise_threshold; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:183:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  183 |     [01;35m[Kconst[m[K uint32_t getActivationThreshold() { return activation_threshold; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:189:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  189 |     [01;35m[Kconst[m[K uint64_t getNumberOfSamples() { return number_of_samples; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:195:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  195 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return timestamp->getTimestampInMSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:201:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  201 |     [01;35m[Kconst[m[K double getTimestampInSec() { return timestamp->getTimestampInSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:207:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  207 |     [01;35m[Kconst[m[K uint64_t getLocalTimeElapsedInMSec() { return local_timestamp->getTimestampInMSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:213:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  213 |     [01;35m[Kconst[m[K double getLocalTimeElapsedInSec() { return local_timestamp->getTimestampInSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:219:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  219 |     [01;35m[Kconst[m[K AcquisitionType getAcquisitionType() { return acquisition_type; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:81:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   81 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfTaxels();
+      |                   [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:82:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   82 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfFaces();
+      |                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_from_file.hpp:15[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherHexagon.cpp:3[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_sec.hpp:49:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   49 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return (uint64_t) *timer*1000; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_sec.hpp:55:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   55 |     [01;35m[Kconst[m[K double getTimestampInSec() { return *timer; };
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_from_shm.hpp:17[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherHexagon.cpp:4[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_msec.hpp:43:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   43 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return *timer; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_msec.hpp:49:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   49 |     [01;35m[Kconst[m[K double getTimestampInSec() { return ((double)*timer)/1000; };
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:9[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:19[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/robot_skin_interface.hpp:143[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp.hpp:23:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   23 |     virtual [01;35m[Kconst[m[K uint64_t getTimestampInMSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp.hpp:29:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   29 |     virtual [01;35m[Kconst[m[K double getTimestampInSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:41:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   41 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start_time).count(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_internal.hpp:47:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   47 |     [01;35m[Kconst[m[K double getTimestampInSec() { return double(getTimestampInMSec()) / 1000; };
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:20[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external.hpp:28:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   28 |     virtual [01;35m[Kconst[m[K uint64_t getTimestampInMSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external.hpp:34:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   34 |     virtual [01;35m[Kconst[m[K double getTimestampInSec() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:177:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  177 |     [01;35m[Kconst[m[K uint32_t getNoiseThreshold() { return noise_threshold; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:183:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  183 |     [01;35m[Kconst[m[K uint32_t getActivationThreshold() { return activation_threshold; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:189:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  189 |     [01;35m[Kconst[m[K uint64_t getNumberOfSamples() { return number_of_samples; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:195:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  195 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return timestamp->getTimestampInMSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:201:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  201 |     [01;35m[Kconst[m[K double getTimestampInSec() { return timestamp->getTimestampInSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:207:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  207 |     [01;35m[Kconst[m[K uint64_t getLocalTimeElapsedInMSec() { return local_timestamp->getTimestampInMSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:213:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  213 |     [01;35m[Kconst[m[K double getLocalTimeElapsedInSec() { return local_timestamp->getTimestampInSec(); };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater.hpp:219:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  219 |     [01;35m[Kconst[m[K AcquisitionType getAcquisitionType() { return acquisition_type; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:81:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   81 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfTaxels();
+      |                   [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin.hpp:82:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   82 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfFaces();
+      |                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_from_file.hpp:15[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisher.cpp:3[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_sec.hpp:49:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   49 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return (uint64_t) *timer*1000; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_sec.hpp:55:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   55 |     [01;35m[Kconst[m[K double getTimestampInSec() { return *timer; };
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/skin_updater_from_shm.hpp:17[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisher.cpp:4[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_msec.hpp:43:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   43 |     [01;35m[Kconst[m[K uint64_t getTimestampInMSec() { return *timer; };
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/skin_updater_timestamp_external_msec.hpp:49:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   49 |     [01;35m[Kconst[m[K double getTimestampInSec() { return ((double)*timer)/1000; };
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:9[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/tactile_image_builder.hpp:17[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherCurvedGesture.cpp:5[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_abstract.hpp:33:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   33 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_abstract.hpp:34:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   34 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfFaces() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:57:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   57 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() { return S->getNumberOfTaxels(); }
+      |                   [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:58:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   58 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfFaces() { return S->getNumberOfFaces(); }
+      |                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:9[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/tactile_image_builder.hpp:17[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisherHexagon.cpp:5[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_abstract.hpp:33:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   33 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_abstract.hpp:34:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   34 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfFaces() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:57:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   57 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() { return S->getNumberOfTaxels(); }
+      |                   [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:58:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   58 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfFaces() { return S->getNumberOfFaces(); }
+      |                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:9[m[K,
+                 from [01m[K/home/lidia/PFE/librobotskin/include/tactile_image_builder.hpp:17[m[K,
+                 from [01m[K/home/lidia/ros2_ws/src/uc1_tactile_images/src/TactileImagePublisher.cpp:5[m[K:
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_abstract.hpp:33:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   33 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/robot_skin_abstract.hpp:34:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   34 |     virtual [01;35m[Kconst[m[K uint32_t getNumberOfFaces() = 0;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:57:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   57 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfTaxels() { return S->getNumberOfTaxels(); }
+      |                   [01;35m[K^~~~~[m[K
+[01m[K/home/lidia/PFE/librobotskin/include/tactile_map.hpp:58:19:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   58 |     /* virtual */ [01;35m[Kconst[m[K uint32_t getNumberOfFaces() { return S->getNumberOfFaces(); }
+      |                   [01;35m[K^~~~~[m[K
